@@ -1,19 +1,13 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <b>First name:</b>
-  <%= @user.first_name %>
-</p>
+<h1><%= @user.first_name %>'s Team</h1>
 
-<p>
-  <b>Last name:</b>
-  <%= @user.last_name %>
-</p>
-
-<p>
-  <b>Email:</b>
-  <%= @user.email %>
-</p>
+<ul>
+  <% @team.characters.each do |character| %>
+    <img src="/images/jobs/<%=character.current_job_class.name + character.color.to_s + character.gender%>.gif">
+   <li><%= character.name %></li>
+  <% end %>
+</ul>
 
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
