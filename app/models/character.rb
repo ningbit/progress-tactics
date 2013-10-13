@@ -1,7 +1,7 @@
 class Character < ActiveRecord::Base
   after_create :initialize_jobs
 
-  attr_accessible :color, :current_job_id, :gender
+  attr_accessible :color, :current_job_id, :gender, :topic_id
 
   belongs_to :team
   belongs_to :topic

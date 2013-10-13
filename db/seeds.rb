@@ -21,22 +21,26 @@ j18 = JobClass.create!(name: "Bard")
 j19 = JobClass.create!(name: "Dancer")
 j20 = JobClass.create!(name: "Mime")
 
-
-
+t1 = Topic.create!(name: "Ruby")
+t2 = Topic.create!(name: "HTML")
+t3 = Topic.create!(name: "SQL")
+t4 = Topic.create!(name: "Bash")
+t5 = Topic.create!(name: "Git")
+t5 = Topic.create!(name: "CSS")
 
 
 # then initialize User
-u = User.new(first_name: "Fan",last_name: "Yap")
+u = User.new(first_name: "Fan",last_name: "Yap", email:"fan.yap@gmail.com")
 u.team = Team.new
 u.save
 
-topic = Topic.new(name: "Ruby")
-topic.save
 
-c = Character.new
-c.topic = topic
 
-u.team.characters << c
+c1 = Character.create!(topic_id: t1.id)
+c2 = Character.create!(topic_id: t2.id)
+c3 = Character.create!(topic_id: t3.id)
+
+u.team.characters << [c1,c2,c3]
 
 u.save
 
