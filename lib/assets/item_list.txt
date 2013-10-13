@@ -1,0 +1,1248 @@
+*Final Fantasy Tactics: Item List* by *Vercingetorix*
+</users/%21Vercingetorix/contributions>
+*Version:* 1.30 | *Last Updated:* 2001-04-13 | *View/Download Original
+File*
+<http://dw.cbsi.com/redir?asid=0&astid=8&siteid=19&edid=107&destCat=&destURL=http%3A%2F%2Fdb.gamefaqs.com%2Fconsole%2Fpsx%2Ffile%2Ffinal_fantasy_tactics_items_a.txt>
+
+Hosted by GameFAQs </>
+Return to *Final Fantasy Tactics (PS) FAQs & Guides*
+</ps/197339-final-fantasy-tactics/faqs>
+
+Would you recommend this FAQ? Yes No You must register
+</user/register.html> to leave a comment. Submit
+
+_________________________________________________________________________________________
+^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^
+^*+_|                                                                               |^*+_
+^*+_|                 Final Fantasy Tactics (US)(PSX) Items List  v1.30             |^*+_
+^*+_|                 made by ^Vercingetorix^ [vercingetorix@chatpr.com]            |^*+_
+^*+_|                        (feel free to contribute anything)                     |^*+_
+^*+_|                                                                               |^*+_
+^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^
+-----------------------------------------------------------------------------------------
+                                                                                (c) 2000 
+--------
+mIRC (dalNET): Vincitori
+ICQ: 6932815
+--------
+
+Here goes a LONG Item List for Final Fantasy Tactics.  I have finished the game several 
+times, so I decided to use the save game I have at the Deep Dungeon to write out a List
+of all the Weapons that I have and where I found them.  I will probably have only a few
+ways to find the very rare items, so BY ALL MEANS send me any information that I do not
+currently have. I began this FAQ almost a year ago,  but for reasons beyond my control,
+it got lost in one of my 16 Zip Discs and I forgot it was there. Only by sheer luck, on
+a recent search did I literally stumble upon it while I was looking for a back-up of my
+Star Ocean FAQ.  Well, here it is, and I hope that it is of some use.
+
+(* NOTE: Sometimes the grammar of the item descriptions is wrong; It is not that I am a
+         lousy typist, but that THE GAME ITSELF has these gramatical mistakes.)
+_________________________________________________________________________________________
+^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^
+-----------------------------------------------------------------------------------------
+TABLE OF CONTENTS:
+
+I. WEAPONS and SHIELDS                O. SPEARS                   IV. ACCESSORIES
+  A. KNIVES                           P. STICKS                      A. SHOES
+  B. NINJA SWORDS                     Q. WOMEN'S BAGS                B. GAUNTLETS
+  C. SWORDS                           R. CLOTHS                      C. RINGS
+  D. KNIGHT SWORDS                    S. SHIELDS                     D. ARMLETS
+  E. KATANAS                                                         E. MANTLES
+  F. AXES                          II. HELMETS                       F. WOMEN'S PERFUMES
+  G. RODS                             A. HELMETS                     
+  H. STAVES                           B. HATS                      V. ITEMS  
+  I. HAMMERS                          C. WOMEN'S RIBBON              A. NINJA STARS
+  J. GUNS                                                            B. THROWING BALLS
+  K. CROSS BOWS                   III. ARMOR                         C. RECOVERY ITEMS
+  L. BOWS                             A. ARMOR
+  M. MUSICAL INSTRUMENTS              B. CLOTHES                  VI. RARE ITEM LOCATIONS
+  N. DICTIONARIES                     C. ROBES                        
+
+(* Contrbutions/Contributors, Version Info, and Copyright/Disclaimer at the bottom)
+_________________________________________________________________________________________
+^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^
+-----------------------------------------------------------------------------------------
+
+                              W E A P O N S  and  S H I E L D S
+
+-----------------------------------------------------------------------------------------
+
+                                       K N I V E S
+              EQUIPPED BY: Squire, Chemist, Thief, Mediator, Ninja, Dancer
+-----------------------------------------------------------------------------------------
+
+"Air Knife" -- Knife with a curvy edge. Vacuum made by shape of blade increases power.
+  ATTACK POWER: 10     EVADE %: 5%     2-swords     Wind elemental
+
+"Assassin Dagger" -- Dagger used to assassinate
+  ATTACK POWER: 7      EVADE %: 5%     2-swords     ADD: Death Sentence     
+
+"Blind Knife" -- Knife with chemicals. The chemical has a blinding effect.
+  ATTACK POWER: 4      EVADE %: 5%     2-swords     ADD: Darkness
+
+"Dagger" -- For self-defense.  Although blade is longer than a knife, attack power 
+isn't very high.
+  ATTACK POWER: 3      EVADE %: 5%     2-swords
+
+"Mage Masher" -- Knife used to battle sorcerers.  Mutes target.
+  ATTACK POWER: 4      EVADE %: 5%     2-swords     ADD: Silence
+
+"Main Gauche" -- Dager for attacking and defending.  High % of evading attacks.
+  ATTACK POWER: 6      EVADE %: 40%    2-swords
+
+"Myhtril Knife" -- Knife made with mythril, a high quality metal suitable for weapons 
+                   and protectors.  Sturdy and easy to handle.
+  ATTACK POWER: 4      EVADE %: 5%     2-swords
+
+"Orichalcum" -- Knife made with a hard, special metal.  Light-weight and sharp.
+  ATTACK POWER: 7      EVADE %: 5%     2-swords
+  
+"Platina Dagger" -- Knife of mythril and platinum.  Has a white, shiny blade.
+  ATTACK POWER: 7      EVADE %: 5%     2-swords
+
+"Zorlin Shape" -- Knife made in cutlery capital.
+  ATTACK POWER: 12     EVADE %: 10%    2-Swords     ADD: Sleep
+  
+-----------------------------------------------------------------------------------------
+
+                                    N I N J A  S W O R D S
+                                      EQUIPPED BY: Ninja
+-----------------------------------------------------------------------------------------
+
+"Hidden Knife" -- A sword for concealment.  Shorter than standard sword.
+  ATTACK POWER: 8      EVADE %: 5%     2-swords     2 hands
+
+"Iga Knife" -- Superb Ninja sword used by a secret group.
+  ATTACK POWER: 15     EVADE %: 10%    2-swords     2 hands
+
+"Koga Knife" -- A powerful Ninja sword used by a secret group.
+  ATTACK POWER: 12     EVADE %: 15%    2-swords     2 hands 
+
+"Ninja Edge" -- A sword used by Ninja.  Good for battles as blade's longer than regular
+                Ninja sword.
+  ATTACK POWER: 12     EVADE %: 5%     2-swords     2 hands
+
+"Ninja Knife" -- Multi-purpose weapon for Ninja.  Can be used as a Ninja Sword.
+  ATTACK POWER: 9      EVADE %: 5%     2-swords     2 hands
+
+"Short Edge" -- Light-weight sword with a short blade.  Easy to carry.
+  ATTACK POWER: 10     EVADE %: 5%     2-swords     2 hands
+
+"Spell Edge" -- Sword that seals target's actions.
+  ATTACK POWER: 13     EVADE %: 5%     2-swords     2 hands     ADD: Don't Act
+
+-----------------------------------------------------------------------------------------
+
+                                       S W O R D S
+                           EQUIPPED BY: Squire, Knight, Geomancer  
+-----------------------------------------------------------------------------------------
+
+" Ancient Sword" -- Sword made by ancient methods.
+  ATTACK POWER: 9      EVADE %: 5%     2-swords     2 hands     ADD: Don't Move
+
+"Blood Sword" -- Sword with magenta blade.  Bloody looking blade symbolizes its gruesome
+                 effects.
+  ATTACK POWER: 8      EVADE %: 5%     2-swords     2 hands     (*Recover HP equal to
+                                                                  damage with the sword)
+
+"Broad Sword" -- Wide blade used for slaying.  Cheap oridnary sword.  Low attack power.
+  ATTACK POWER: 4      EVADE %: 5%     2-swords     2 hands
+
+"Coral Sword" -- Single-edged sword with coral design.
+  ATTACK POWER: 8      EVADE %: 5%     2-swords     2 hands     Lightning elemental
+
+"Diamond Sword" -- Sword with small diamonds in the blade.  Slices enemy up.
+  ATTACK POWER: 10     EVADE %: 5%     2-swords     2 hands
+
+"Ice Brand" -- Sword as clear as ice.
+  ATTACK POWER: 13     EVADE %: 10%     2-swords     2 hands     Ice elemental
+  MAGIC: Ice 2
+
+"Iron Sword" -- Iron sword.  Extremely heavy but with a wide sturdy blade.
+  ATTACK POWER: 6      EVADE %: 5%     2-swords     2 hands
+
+"Long Sword" -- Double-edged, sharp and straight.  Ordinary sword used for slaying and
+                stabbing.
+  ATTACK POWER: 5      EVADE %: 10%    2-swords     2 hands
+
+"Materia Blade" -- Foreigner's Sword.
+  ATTACK POWER: 10     EVADE %: 10%    2-swords     2 hands     (*without this sword,
+                                                                  Cloud cannot use his
+                                                                  Limit Breaks)
+
+"Mythril Sword" -- Mythril Sword, a special type of metal.  Extremely light and shiny.
+  ATTACK POWER: 7      EVADE %: 8%     2-swords     2 hands
+
+"Nagrarock" -- Ebony sword from the Apocalypse.
+  ATTACK POWER: 1      EVADE %: 50%    2-swords     2 hands     ADD: Frog
+
+"Platinum Sword" -- Shiny sword made of platinum and mythril.  The wide edge cuts
+                    extremely well.
+  ATTACK POWER: 12     EVADE %: 10%    2-swords     2 hands
+
+"Rune Sword" -- Sword with ancient engravings.
+  ATTACK POWER: 14     EVADE %: 15%    2-swords     2 hands     AT Magic+2
+
+"Sleep Sword" -- Wide-bladed sword with a jet black design.
+  ATTACK POWER: 9      EVADE %: 5%     2-swords     2 hands     ADD: Sleep
+
+-----------------------------------------------------------------------------------------
+
+                                   K N I G H T  S W O R D S
+                                     EQUIPPED BY: Knight
+-----------------------------------------------------------------------------------------
+
+"Chaos Blade" -- Holy Knight sword said to be from God.
+  ATTACK POWER: 40     EVADE %: 20%    2-swords     2 hands     ALWAYS: Regen
+  ADD: Petrify
+
+"Defender" -- Wide steel Knight sword.  Rounded tip on the grip has a gem inside.
+  ATTACK POWER: 16     EVADE %: 60%    2-swords     2 hands
+
+"Excalipar" -- ?????  (NEEDS CONFIRMATION - haven't heard of it at all)
+
+"Ragnarok" -- Knight sword from the Apocalypse.
+  ATTACK POWER: 24     EVADE %: 20%    2-swords     2 hands     ALWAYS: Shell
+
+"Save the Queen" -- Knight sword given as a symbol of one's loyalty.
+  ATTACK POWER: 18     EVADE %: 30%    2-swords     2 hands     ALWAYS: Protect
+
+-----------------------------------------------------------------------------------------
+
+                                       K A T A N A S
+                                    EQUIPPED BY: Samurai
+-----------------------------------------------------------------------------------------
+
+"Asura Knife" -- Bright white sword.
+  ATTACK POWER: 7      EVADE %: 15%    2-swords     2 hands
+
+"Bizen Boat" -- Hight quality iron sand sword.  Hand-made by Osafune.
+  ATTACK POWER: 9      EVADE %: 15%    2-swords     2 hands
+
+"Chirijiraden" -- Chirijiraden ornamental sword, made with delicate work.
+  ATTACK POWER: 25     EVADE %: 15%    2-swords     2 hands
+
+"Heaven's Cloud" -- Replica of a sword from a dragon's tail that damaged a samurai 
+                    kingdom.
+  ATTACK POWER: 11     EVADE %: 15%    2-swords     2 hands
+
+"Kikuichimoji" -- Crysanthemum crested sword.
+  ATTACK POWER: 15     EVADE %: 15%    2-swords     2 hands
+
+"Kiyomori" -- Well made famous sword.  Beautiful and cuts extremely well.
+  ATTACK POWER: 12     EVADE %: 15%    2-swords     2 hands
+
+"Koutetsu Knife" -- Sword with tiger engraved on the blade.
+  ATTACK POWER: 8      EVADE %: 15%    2-swords     2 hands
+
+"Masamune" -- Beautifully designed sword and case.  Masterpiece of a famous sword maker.
+  ATTACK POWER: 18     EVADE %: 15%    2-swords     2 hands
+
+"Muramasa" -- Peculiar sword that sucks large amounts of blood.
+  ATTACK POWER: 14     EVADE %: 15%    2-swords     2 hands
+
+"Murasame" -- A peculiar sword.  Causes much blood shed in battle with its sharp edge.
+  ATTACK POWER: 10     EVADE %: 15%    2-swords     2 hands
+
+"Sasuke Knife" -- A legendary Ninja Sword.
+  ATTACK POWER: 14     EVADE %: 15%    2-swords     2 hands
+
+        Koga knife- atk.-15 eva.-5 (I think) find it at Bridge
+
+-----------------------------------------------------------------------------------------
+
+                                         A X E S
+                              EQUIPPED BY: Squire, Geomancer
+-----------------------------------------------------------------------------------------
+
+"Battle Axe" -- Ornamental battle axe. Slash enemy by hurling it with both hands.
+  ATTACK POWER: 9      2 hands only
+
+"Giant Axe" -- Axe with huge head.  A lager version of the typical axe.
+  ATTACK POWER: 12     2 hands only
+
+"Slasher" -- Axe that slows target.  Destruction level's also high.
+  ATTACK POWER: 16     2 hands only     ADD: Slow
+
+-----------------------------------------------------------------------------------------
+
+                                         R O D S
+                            EQUPPED BY: Wizard, Summoner, Oracle
+-----------------------------------------------------------------------------------------
+
+"Dragon's Rod" -- Rod carries by one attended by dragons.  Tip made of dragon bones.
+  ATTACK POWER: 5      EVADE %: 20%    2-swords     2 hands
+
+"Faith Rod" -- Rod that fills those who touch it with faith.
+  ATTACK POWER: 5      EVADE %: 20%    2-swords     2 hands     ALWAYS: Faith
+  ADD: Faith
+
+"Flame Rod" -- Rod with fire elemental.
+  ATTACK POWER: 3      EVADE %: 20%    2-swords     2 hands     STRENGTHEN: Fire
+  MAGIC: Fire
+
+"Ice Rod" -- Rod with ice elemental.
+  ATTACK POWER: 3      EVADE %: 20%    2-swords     2 hands     STRENGTHEN: Ice
+  Magic: Ice
+
+"Poison Rod" --Rod with deadlt poison on its tip."
+  ATTACK POWER: 3      EVADE %: 20%    2-swords     2 hands     ADD: Poison
+
+"Rod" -- Rod-like oak weapon
+  ATTACK POWER: 3      EVADE %: 20%    2-swords     2 hands
+
+"Thunder Rod" -- Rod with lightning elemental.
+  ATTACK POWER: 3      EVADE %: 20%    2-swords     2 hands     STRENGTHEN: Lightning
+  MAGIC: Bolt
+
+"Wizard Rod" -- Rod that increases the magic ability of the user.
+  ATTACK POWER: 4      EVADE %: 20%    2-swords     2 hands     AT Magic+2
+
+-----------------------------------------------------------------------------------------
+
+                                       S T A V E S
+                    EQUIPPED BY: Priest, Time Mage, Summoner, Oracle
+
+-----------------------------------------------------------------------------------------
+
+"Gold Staff" -- Glittering golden staff
+  ATTACK POWER: 6      EVADE %: 15%    2-swords     2 hands
+
+"Healing Staff" -- Staff with power of spirit inside.  Recovers HP of whoever it strikes.
+  ATTACK POWER: 4      EVADE %: 15%    2-swords     2 hands     (*Restores target's HP              
+                                                                  equal to attack damage)
+"Oak Staff" -- Oak staff
+  ATTACK POWER: 3      EVADE %: 15%    2-swords     2 hands
+
+"Rainbow Staff" -- Staff with serpent scales on the tip.
+  ATTACK POWER: 5      EVADE %: 15%    2-swords     2 hands
+
+"White Staff" -- Staff for one who takes holy orders.  Symbolic meaning is stronger than
+                 its power in battle.
+  ATTACK POWER: 3      EVADE %: 15%    2-swords     2 hands     CANCEL: Death Sentence
+
+"Wizard Staff" -- Cypress staff.  Increases magic attack power of user.
+  ATTACK POWER: 4      EVADE %: 15%    2-swords     2 hands     AT Magic+1
+
+-----------------------------------------------------------------------------------------
+
+                                       H A M M E R
+                                EQUIPPED BY: Squire, Ninja
+-----------------------------------------------------------------------------------------
+
+"Flail" -- Wooden stick connected to a metal one, which is the attack portion.
+  ATTACK POWER: 9      2-swords     2 hands
+
+"Flame Whip" -- Weapon with a iron hammer head.
+  ATTACK POWER: 11     2-swords     2 hands     Fire elemental     MAGIC: Fire 2
+
+"Morning Star" -- Medieval Mace
+  ATTACK POWER: 16     2-swords     2 hands
+
+"Scorpion Tail" -- Like the morning star, but with one spike bigger than the others.
+  ATTACK POWER: 23     2-swords     2 hands
+
+-----------------------------------------------------------------------------------------
+
+                                         G U N S
+                               EQUIPPED BY: Chemist, Mediator
+-----------------------------------------------------------------------------------------
+
+
+"Blast Gun" -- Gun that shoots lightning elemental bullets.
+  ATTACK POWER: 22     EVADE %: 5%     RANGE: 8     Lightning elemental  
+
+"Blaze Gun" -- Gun that shoots ice elemental bullets.
+  ATTACK POWER: 20     EVADE %: 5%     RANGE: 8     Ice elemental
+
+"Glacier Gun" -- Gun that shoots fire elemental bullets.
+  ATTACK POWER: 21     EVADE %: 5%     RANGE: 8     Fire elemental
+
+"Mythril Gun" -- Mythril gun
+  ATTACK POWER: 8      EVADE %: 5%     RANGE: 8
+
+"Romanda Gun" -- Gun brought from Romanda, an area in the north.
+  ATTACK POWER: 6      EVADE %: 5%     RANGE: 8
+
+"Stone Gun" -- ????
+  ATTACK POWER: 8      EVADE %: 5%     RANGE: 8
+
+-----------------------------------------------------------------------------------------
+
+                                    C R O S S  B O W S
+                                    EQUIPPED BY: Archer
+-----------------------------------------------------------------------------------------
+
+"Bow Gun" -- Crossbow you can shoot with one hand.  Uses short arrows.
+  ATTACK POWER: 3      EVADE %: 5%     RANGE: 4
+
+"Cross Bow" -- Crossbow with improved mechanism increasing attack power.
+  ATTACK POWER: 4      EVADE %: 5%     RANGE: 4
+
+"Gastrafitis" -- Most powerful cross bow.  Unusually big gives a huge reaction.
+  ATTACK POWER: 10     EVADE %: 5%     RANGE: 4
+
+"Hunting Bow" -- Crossbow used to hunt monsters.
+  ATTACK POWER: 6      EVADE %: 5%     RANGE: 4
+
+"Night Killer" -- Crossbow that shoots special arrows causing abnormal status.
+  ATTACK POWER: 3      EVADE %: 5%     RANGE: 4     ADD: Darkness
+
+"Poison Bow" -- Crossbow with a device that lets it use poison arrows.
+  ATTACK POWER: 4      EVADE %: 5%     RANGE: 4     ADD: Poison
+
+-----------------------------------------------------------------------------------------
+
+                                         B O W S
+                                    EQUIPPED BY: Archer
+-----------------------------------------------------------------------------------------
+
+"Ice Bow" -- Bow that shoots ice elemental arrows.
+  ATTACK POWER: 5      RANGE: 5     2 hands only     Ice elemental
+
+"Lightning Bow" -- Bow that shoots arrows at lightning speed.  Lightning elemental 
+                   arrows.
+  ATTACK POWER: 6      RANGE: 5     2 hands only     Lightning elemental   
+  MAGIC: Bolt 2
+
+"Long Bow" -- Standard bow.  An extensive range, lasts a long time.
+  ATTACK POWER: 4      RANGE: 5     2 hands only
+
+"Mythril Bow" -- Mythril reinforced bow.
+  ATTACK POWER: 7      RANGE: 5     2 hands only
+
+"Perseus Bow" -- Bow used by mythological hero.  Made entirely of metal, it requires 
+                 great strength to pull it.
+  ATTACK POWER: 16     RANGE: 5     2 hands only
+
+"Silver Bow" -- Silver bow.  Reinforced with thin slats of horn and wood.
+  ATTACK POWER: 5      RANGE: 5     2 hands only
+
+"Ultimus Bow" -- Bow of the hunting goddess.
+  ATTACK POWER: 10     RANGE: 5     2 hands only
+
+"Windslash Bow" -- Bow that shoots ultra-high speed arrows.  Wind elemental arrows.  
+                   Increases damaging power with a vacuum created around the arrow.
+  ATTACK POWER: 8      RANGE: 5     2 hands only     Wind elemental
+
+"Yoichi Bow" -- Bow of a famous archer.  Huge bow with tremendous power.
+  ATTACK POWER: 12     RANGE: 5     2 hands only     
+
+-----------------------------------------------------------------------------------------
+
+                           M U S I C A L  I N S T R U M E N T
+                                   EQUIPPED BY: Bard
+-----------------------------------------------------------------------------------------
+
+"Bloody Strings" -- Stringed instrument produces many sounds with a wide range.
+  ATTACK POWER: 13     EVADE %: 10%    RANGE: 3
+
+"Fairy Harp" -- ????
+  ATTACK POWER: 15     EVADE %: 10%    RANGE: 3     ADD: Charm
+
+"Ramia Harp" -- Harp produces sounds that affect the mind causing confusion.
+  ATTACK POWER: 10     EVADE %: 10%    RANGE: 3     ADD: Confusion
+
+-----------------------------------------------------------------------------------------
+
+                                  D I C T I O N A R Y
+                            EQUIPPED BY: Oracle, Calculator
+-----------------------------------------------------------------------------------------
+
+"Battle Dict" -- Dictionary used in battle.
+  ATTACK POWER: 7      EVADE %: 15%    RANGE: 3
+
+"Monster Dict" -- Thick Dictionary.
+  ATTACK POWER: 8      EVADE %: 15%    RANGE: 3
+
+"Papyrus Plate" -- Ancient dictionary with a cover made out of minerals.
+  ATTACK POWER: 9      EVADE %: 15%    RANGE: 3
+
+-----------------------------------------------------------------------------------------
+
+                                      S P E A R S
+                                  EQUIPPED BY: Lancer
+-----------------------------------------------------------------------------------------
+
+"Dragon Whisker" - Spear made of a mysterious metal neither wood nor metal.  Said to be 
+                   dragon whiskers.
+  ATTACK POWER: 17     EVADE %: 10%    RANGE: 2     2 hands
+
+"Holy Lance" -- Bright Holy Spear.
+  ATTACK POWER: 14     EVADE %: 10%    RANGE: 2     2 hands     Holy elemental
+  MAGIC: Holy
+
+"Javelin" -- Cheap light-weight spear.  Attacks areas one panel away.
+  ATTACK POWER: 8      EVADE %: 10%    RANGE: 2     2 hands
+
+"Javelin" -- Ultimate spear with matchless attack power.
+  ATTACK POWER: 30     EVADE %: 10%   RANGE: 2      2 hands
+
+"Mythril Spear" -- Spear with mythril head.
+  ATTACK POWER: 10     EVADE %: 10%    RANGE: 2     2 hands
+
+"Oberisk" -- Huge steeple-shaped spear.
+  ATTACK POWER: 12     EVADE %: 10%    RANGE: 2     2 hands
+
+"Partisan" -- Wide double-edged spear.  Devised to cause severe damage to its enemy.
+  ATTACK POWER: 11     EVADE %: 10%    RANGE: 2     2 hands
+
+"Spear" -- Standard spear.  Capable of long distance attacks.
+  ATTACK POWER: 9      EVADE %: 10%    RANGE: 2     2 hands
+
+-----------------------------------------------------------------------------------------
+
+                                         S T I C K S
+                                EQUIPPED BY: Oracle, Calculator
+-----------------------------------------------------------------------------------------
+
+"Battle Bamboo" -- Long, slender bamboo stick.  Attacks by bending it.
+  ATTACK POWER: 7      EVADE %: 20%    RANGE: 2     2 hands
+
+"Cypress Rod" -- Cypress staff.
+  ATTACK POWER: 6      EVADE %: 20%    RANGE: 2     2 hands
+
+"Gokuu Rod" -- Stick that causes those it strikes to lose faith.
+  ATTACK POWER: 7      EVADE %: 20%    RANGE: 2     2 hands     ADD: Innocent
+
+"Iron Fan" -- Gigantic metal-framed fan.  Used like a stick with the fan folded.
+  ATTACK POWER: 7      EVADE %: 20%    RANGE: 2     2 hands
+
+"Musk Rod" -- Musk tree stick.  Shaped like a huge dipper.
+  ATTACK POWER: 8      EVADE %: 20%    RANGE: 2     2 hands
+
+"Octagon Rod" -- Octagon-carved stick on a steel plate.
+  ATTACK POWER: 12     EVADE %: 20%    RANGE: 2     2 hands
+  CANCEL: Darkness - Silence - Oil - Frog - Poison - Slow - Stop - Don't Move - Don't Act
+
+"Whale Whisker" -- Ebony stick.  The material, neither wood nor metal, said to be giant 
+                   whale whiskers.
+  ATTACK POWER: 16     EVADE %: 20%    RANGE:2      2 hands
+ 
+
+-----------------------------------------------------------------------------------------
+
+                                   W O M E N' S  B A G 
+-----------------------------------------------------------------------------------------
+
+"C Bag" -- High quality brand name bag.
+  ATTACK POWER: 10     AT Magic+1
+
+"FS Bag" -- Custom-made bag for battle.
+  ATTACK POWER: 20
+
+"H Bag" -- Limited quantity bag sold at a high price.
+  ATTACK POWER: 14     Speed+1
+
+"P Bag" -- Simple, but fashionable bag.
+  ATTACK POWER: 12     ALWAYS: Regen
+
+-----------------------------------------------------------------------------------------
+
+                                         C L O T H S
+                                     EQUIPPED BY: Dancer
+-----------------------------------------------------------------------------------------
+
+"Cashmere" -- Woolen cloth with elasticity and heat absorbtion.  Soft, pleasant to touch.
+  ATTACK POWER: 10     EVADE %: 50%    RANGE: 2
+
+"Persia" -- Brightly colored textile with unique thickness, used for carpeting.
+  ATTACK POWER: 8      EVADE %: 50%    RANGE: 2
+
+"Ryozan Silk" -- ????  
+  ATTACK POWER: 15     EVADE %: 50%    RANGE: 2
+
+-----------------------------------------------------------------------------------------
+
+                                        S H I E L D S
+                        EQUIPPED BY: Knight, Archer, Geomancer, Lancer
+-----------------------------------------------------------------------------------------
+
+"Aegis Shield" -- Repica of the Shield of God. Raises.
+  S`EV Physical 10% - Magic 50%     AT Magic+1
+
+"Bronze Shield" -- Bronze Shield. Made small to evade attacks quickly.
+  S`EV Physical 16%
+
+"Buckler" -- Small shield used in white soldier evade % is low, but it's easy to handle.
+  S`EV Physical 13% - Magic 3% 
+
+"Crystal Shield" - Crystal inlaid shield.  Crystals look like mined gems.
+  S`EV Physical 40% - Magic 15%
+
+"Diamond Shield" -- Diamond Shield.  High magic due to divine protection of gems.
+  S`EV Physical 34% - Magic 15%
+
+"Escutcheon" -- The cheapest shield.  S`EV (the shield's evade %) is very low.
+  S`EV Physical 10% - Magic 3%
+
+"Escutcheon" -- Ultimate shield with matchless evade %.
+  S`EV Physical 75% - Magic 50%
+
+"Flame Shield" -- Inlaid magenta mythril shield.  The gems possesses the fire elemental.
+  S`EV Physical 31%     ABSORB: Fire     HALF: Ice     WEAKNESS: Water
+
+"Genji Shield" -- Black foreign-made shield.  Made of steel with a unique shape.
+  S`EV Physical 43%
+
+"Gold Shield" -- Gold rimmed mythril shield.  Physical attacks is higher than magic
+                 attacks.
+  S`EV Physical 25%
+
+"Ice Shield" -- Gem inlaid Mythril shield.  The gems possesses the ice elemental.
+  S`EV Physical 28%     ABSORB: Ice     HALF: Fire     WEAKNESS: Lightning
+
+"Kaiser Plate" -- Shield named after ancient king.  Raises wpn evade % and wpn attack.
+  S`EV Physical 46% - Magic 20%     STRENGTHEN: Fire Lightning Ice
+
+"Mythril Shield" -- Mythril shield.  Lighter than it looks and easy to handle.
+  S`EV Physical 22% - Magic 5%
+
+"Platina Shield" -- Mythril/Platinum shield.  Has a white luster.
+  S`EV Physical 37% - Magic 10%
+ 
+"Round Shield" -- Small, sturdy shield.  The surface ornamented with complex paterns.
+  S`EV Physical 19%
+
+"Venetian Shield" -- Bright shield with special pigment.  Reduces elemental damage by 
+                     half.
+  S`EV Physical 50% - Magic 25%     HALF: Fire Lightning Ice
+
+-----------------------------------------------------------------------------------------
+
+_________________________________________________________________________________________
+^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^
+-----------------------------------------------------------------------------------------
+
+                                          H E L M S
+
+-----------------------------------------------------------------------------------------
+
+                                        H E L M E T S
+                             EQUIPPED BY: Knight, Lancer, Samurai
+-----------------------------------------------------------------------------------------
+
+"Barbuta" - Large helmet with a T-shaped gap for the face.
+  HP+40
+
+"Bronze Helmet" -- Standard bronze helmet.
+  HP+20
+
+"Circlet" -- Helmet with inlay in the forhead.  Ears are exposed make it to lighter.
+  HP+100
+
+"Cross Helmet" -- Helmet that covers head and neck.  The face guard protects the face.
+  HP+70
+
+"Crystal Helmet" -- Inlaid crystal helmet.  The crystals look like mined gems.
+  HP+120
+
+"Diamond Helmet" -- Inlaid cross helmet.  Spiritually dense gems increase helmet's power.
+  HP+80
+
+"Genji Helmet" -- Black foreign helmet.  Made of steel with a unique shape.
+  HP+130
+
+"Gold Helmet" -- Gold helmet.
+  HP+60
+
+"Grand Helmet" -- ????
+  HP+150     CANCEL: Dark - Sleep
+
+"Iron Helmet" -- Sturdy steel helmet.
+  HP+30
+
+"Leather Helmet" -- Rosin helmet with great elasticity.
+  HP+10
+
+"Mythril Helmet" -- Mythril helmet.  Light and sturdy.
+  HP+50
+
+"Platina Helmet" -- Mythril/Platinum helmet.  Has a white luster.                                  
+  HP+90
+
+-----------------------------------------------------------------------------------------
+
+                                          H A T S
+   EQUIPPED BY: Squire, Chemist, Archer, Priest, Wizard, Time Mage, Summoner, Thief, 
+              Mediator, Oracle, Geomancer, Ninja, Calculator, Bard, Dancer
+
+-----------------------------------------------------------------------------------------
+
+"Black Hood" -- Black cloth hood.
+  HP+72
+
+"Feather Hat" -- Sturdy white feather hat.
+  HP+16      MP+5
+
+"Flash Hat" -- Crystal hat whose spiritual power increases agility and magic power.
+  HP+88      MP+15      AT Magic+1     Speed+1
+
+"Golden Hairpin" -- Beautiful golden hairpin.
+  HP+80      MP+50      CANCEL: Silence
+
+"Green Beret" -- Beret worn by special unit.
+  HP+48      Speed+1
+
+"Headgear" -- Leather head gear.  Sturdy leather hat.
+  HP+32      AT Physical+1
+
+"Holy Mirter" -- Nobles' hat for holy workers who conduct ceremonies.
+  HP+64      MP+20      AT Magic+1
+
+"Leather Hat" -- Sturdy leather hat.
+  HP+8
+
+"Red Hood" -- Red cloth hood.
+  HP+24      MP+8
+
+"Thief Hat" -- Hat increases agility and prevents abnormal status.
+  HP+100     Speed+2    CANCEL: Don't Move - Don't Act
+
+"Triangle Hat" -- 3-cornered hat with magic pattern on top.
+  HP+40      MP+12      AT Magic+1
+
+"Twist Headband" -- Twisted towel wrapped around one's head.  Strengthens oneself.
+  HP+56      AT Physical+2
+
+-----------------------------------------------------------------------------------------
+
+                                  W O M E N' S  R I B B O N
+-----------------------------------------------------------------------------------------
+
+"Barette" -- Hairpin that prevents abnormal status.
+  HP+20      CANCEL: Dead - Petrify - Invitation - Confusion - Blood Suck - Berserk - 
+                     Stop - Charm - Sleep 
+
+"Cachusha" - Hairpin that prevents abnormal status.
+  HP+20      CANCEL:  Undead - Darkness - Silence - Frog - Poison - Slow - Don't Move - 
+                      Don't Act - Death Sentence 
+
+-----------------------------------------------------------------------------------------
+
+_________________________________________________________________________________________
+^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^
+-----------------------------------------------------------------------------------------
+
+                                        A R M O R 
+
+-----------------------------------------------------------------------------------------
+
+                                        A R M O R
+                          EQUIPPED BY: Knight, Lancer, Samurai
+-----------------------------------------------------------------------------------------
+
+"Bronze Armor" -- Simple bronze helmet.
+  HP+30
+
+"Carabini Mail" -- Thick Myhtril armor.  This can endure extreme impact.
+  HP+100
+
+"Chain Mail" -- Chainlink armor.
+  HP+40
+
+"Crystal Mail" -- Inlaid crystal platinum armor.  The crystals look like mined gems.
+  HP+110
+
+"Diamond Armor" -- Diamond armor.
+  HP+80
+
+"Genji Armor" -- Black foreign armor.  Firmly protects the abdomen.
+  HP+150
+
+"Gold Armor" -- Like Platemail, but reinforced with 
+  HP+70
+
+"Leather Armor" -- Layered leather armor.
+  HP+10
+
+"Linen Curiass" -- Armor which outer shell is bronze, and inside is linen.
+  HP+20
+
+"Maximillion" -- ???? 
+  HP+200
+
+"Mythril Armor" -- Mythril armor.  Sturdy and light
+  HP+50
+
+"Platina Armor" -- Mythril/Platinum armor.  Has a white luster.
+  HP+80
+
+"Plate Mail" -- Improved Mythril armor with increased capacity.
+  HP+60
+
+"Reflect Mail -- "Armor protects the wearer from magic attacks with 'Reflect'.
+  HP+130     ALWAYS: Reflect
+
+-----------------------------------------------------------------------------------------
+
+                                        C L O T H E S
+    EQUIPPED BY: Squire, Chemist, Archer, Priest, Wizard, Time Mage, Summoner, Thief, 
+                Mediator, Oracle, Geomancer, Ninja, Calculator, Bard, Dancer
+-----------------------------------------------------------------------------------------
+
+"Adaman Vest" -- Heavy metal vest.
+  HP+36
+
+"Black Costume" -- Black battle clothes.
+  HP+100     CANCEL: Stop
+
+"Brigadine" -- Mythril garment.  Reinforced with platinum plates.
+  HP+50
+
+"Chain Vest" -- Chain linked shirt.
+  HP+24
+
+"Clothes" -- Battle clothes.  Sturdier than normal clothing.
+  HP+5
+
+"Earth Clothes" -- Garment made from beautifully designed fabric.
+  HP+85      MP+10      ABSORB: Earth     STRENGTHEN: Earth
+
+"Judo Outfit" -- Martial art uniform from another culture.
+  HP+60      AT Physical+1     CANCEL: Dead
+
+"Leather Outfit" -- Leather battle clothes.
+  HP+10
+
+"Leather Vest" -- Layered leather battle clothes.
+  HP+18
+
+"Mythril Vest" -- Mythril vest.  Small mythril plates sewed on the chest area.
+  HP+30
+
+"Power Sleve" -- String to tie up excess parts of a garment for agility.
+  HP+70      AT Physical+2
+
+"Rubber Costume" -- Close-fitting Rosin garment. 
+  HP+150     MP+30      CANCEL: Lightning
+
+"Secret Clothes" -- Ninja clothes.  Good for convert acts. 
+  HP+20      Speed+2    ALWAYS: Transparent
+
+"Wizard Outfit" -- Sorcerer's hooded garment.
+  HP+42      MP+15
+
+-----------------------------------------------------------------------------------------
+
+                                         R O B E S
+ EQUIPPED BY:  Knight, Priest, Wizard, Time Mage, Summoner, Mediator, Oracle, Geomancer,
+                                Lancer, Samurai, Calculator
+-----------------------------------------------------------------------------------------
+
+"Black Robe" -- Ebony gown.  Strengthens elemental magic.
+  HP+60      MP+30      STRENGTHEN: Fire Lightning Ice
+
+"Chameleon Robe" -- Green robe dyed with an extract from a shiny green stone.
+  HP+40      MP+28      CANCEL:Dead      ABSORB: Holy
+
+"Light Robe" -- Robe woven from a glistening fabric.
+  HP+75      MP+50
+
+"Linen Robe" -- Simple linen robe.
+  HP+10      MP+10
+
+"Robe of Lords" -- Exquisite robe worn by elder preists.
+  HP+100     MP+80     AT Physical+1 - Magic+1     ALWAYS: Protect - Shell
+
+"Silk Robe" -- Smotth silken robe.
+  HP+20      MP+16
+
+"White Robe" -- Pure-white gown.  Reduces elemental damage by half.
+  HP+50      MP+34     HALF: Fire Lightning Ice
+
+"Wizard Robe" -- Hooded robe
+  HP+30      MP+22     AT Magic+2
+
+-----------------------------------------------------------------------------------------
+
+_________________________________________________________________________________________
+^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^
+-----------------------------------------------------------------------------------------
+
+                                    A C C E S O R I E S
+                                      EQUIPPED BY ALL
+
+-----------------------------------------------------------------------------------------
+
+                                         S H O E S
+-----------------------------------------------------------------------------------------
+
+"Battle Boots" -- Layered leather battle boots
+  MOVE+1
+
+"Feather Boots" -- Soft, light-weight shoes.
+  ALWAYS: Float
+
+"Germinas Boots" -- Fitted boots.  Easy to move around in.
+  MOVE+1     JUMP+1
+
+"Red Shoes" -- Leather shoes colored with magenta dye.
+  AT Magic+1     MOVE+1
+
+"Rubber Shoes" -- Shoes made by soaking in rosin.  Cancel lightning-elemental magic.
+  CANCEL: Don't Move
+
+"Spike Boots" -- Cleated running shoes.  Increases jump power with firm grip.
+  JUMP+1
+
+"Sprint Boots" -- Expensive, brand-name shoes.
+  Speed+1
+
+-----------------------------------------------------------------------------------------
+
+                                    G A U N T L E T S
+-----------------------------------------------------------------------------------------
+
+"Bracer" -- Thin, leather gauntlet.
+  AT Physical+3
+
+"Genji Gauntlet" -- Crimson foreign gauntlet.
+  AT Physical+2 - Magic+2
+
+"Magic Gauntlet" -- Gauntlet that increases magic attack power.
+  AT Magic+2
+
+"Power Wrist" -- Gauntlet increases weapon attack power.
+  AT Physical+1
+
+-----------------------------------------------------------------------------------------
+
+                                       R I N G S
+-----------------------------------------------------------------------------------------
+
+"Angel Ring -- Ring receives divine protection from an angel.
+  CANCEL: Dead - Darkness     ALWAYS: Reraise
+
+"Cursed Ring" -- ????
+  AT Physical+1 - Magic+1     Speed+1     CANCEL: Invitation      ALWAYS: Undead
+
+"Defense Ring" -- Metal ring with spiritual powers.
+  CANCEL: Sleep - Death Sentence
+
+"Magic Ring" -- Inlaid ring with spiritual powers.
+  CANCEL: Silence - Berserk
+
+"Reflect Ring" -- Ring that reflects magic with words of the engraved contract.
+  ALWAYS: Reflect
+
+-----------------------------------------------------------------------------------------
+
+                                       A R M L E T
+-----------------------------------------------------------------------------------------
+
+"108 Gems" -- Beads connected together with 108 linden seeds.
+  CANCEL: Undead - Blood Suck - Frog - Poison
+
+"Defense Armlet" -- Magenta inlaid armlet.
+  CANCEL: Don't Move - Don't Act
+
+"Diamond Armlet" -- Inlaid armlet with high spiritual powers.
+  AT Physical+1 - Magic+1     CANCEL: Slow
+
+"Jade Armlet" -- Armlet inlaid with polished jewels.
+  CANCEL: Petrify - Stop
+
+"N-Kai Armlet" -- Ceremonial armlet.  Worn for the God of darkness.
+  CANCEL: Confusion - Charm     HALF: Dark
+
+-----------------------------------------------------------------------------------------
+
+                                     M A N T L E S
+-----------------------------------------------------------------------------------------
+
+"Dracula Mantle" -- Cape with outer fabric black and the inner fabric magenta.
+  A`EV Physical 28% - Magic 28%
+
+"Elf Mantle" -- Thin, short fabric cape.  Special fabric with spiritual powers.
+  A`EV Physical 25% - Magic 25%
+
+"Feather Mantle" -- Light cap, soft as a feather.
+  A`EV Physical 40% - Magic 30%
+
+"Leather Mantle" -- Sturdy leather cape.
+  A`EV Physical 15% - Magic 15%
+
+"Small Mantle" -- Small woolen cape.
+  A`EV Physical 10% - Magic 10%
+
+"Vanish Mantle" -- ????
+  A`EV Physical 35% - Magic 0%      ALWAYS: Transparent
+
+"Wizard Mantle" -- Hooded Sorcerer's cape.
+  A`EV Physical 18% - Magic 18%     AT Magic+1
+
+-----------------------------------------------------------------------------------------
+
+                               W O M E N' S  P E R F U M E
+-----------------------------------------------------------------------------------------
+
+"Cherche" -- ????
+  ALWAYS: Float - Reflect
+
+"Chantage" -- Perfume with a peaceful scent.
+  ALWAYS: Reraise - Regen
+
+"Salty Rage" -- ????
+  ALWAYS: Protect - Shell
+
+"Setiemson" -- Perfume with an exotic scent.  
+  ALWAYS: Haste - Transparent      AT Magic+1
+ 
+-----------------------------------------------------------------------------------------
+
+                                     R I B B O N S
+-----------------------------------------------------------------------------------------
+
+"Ribbon" -- Hairpin that prevents abnormal statuses.  
+  HP + 10        CANCEL: "All abnormal statuses except Oil."
+
+_________________________________________________________________________________________
+^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^
+-----------------------------------------------------------------------------------------
+
+                                       I T E M S
+-----------------------------------------------------------------------------------------
+
+                                  N I N J A  S T A R S
+-----------------------------------------------------------------------------------------
+
+"Magic Shuriken" -- Windmill-shaped dirk.  Slashes enemy with its high-speed spinning.
+  ATTACK POWER: 7
+
+"Shuriken" -- Throwing weapon used by Ninja.  Hits enemy by spinning.
+  ATTACK POWER: 4
+
+"Yagyu Darkness" -- Cross shuriken used by famous Ninja school.  Edgesis hook-shaped to
+                    raise damaging power.
+  ATTACK POWER: 10
+
+-----------------------------------------------------------------------------------------
+
+                               T H R O W I N G  B A L L S
+-----------------------------------------------------------------------------------------
+
+"Fire Ball" -- Ball that causes fire damage.
+  ATTACK POWER: 8       Fire elemental
+
+"Lightning Ball" -- Ball that causes lightning damage.
+  ATTACK POWER: 8       Lightning elemental
+
+"Water Ball" -- Ball that causes water damage.
+  ATTACK POWER: 8       Water elemental
+
+-----------------------------------------------------------------------------------------
+
+                               R E C O V E R Y  I T E M S
+-----------------------------------------------------------------------------------------
+
+"Antidote" -- Medicine neutralizes poison from enemy attacks.
+  CANCEL: Poison
+
+"Echo Grass" -- Herb used to restore units who've lost their voices, so they can cast
+                spells.
+  CANCEL: Silence
+
+"Elixir" -- Precious medicine that completely restores HP and MP.
+
+"Ether" --  Medicine restores MP.  MP restore 20
+
+"Eye Drop" -- Medicine used when one's sight is lost in magic attacks.
+  CANCEL: Darkness
+
+"Hi-Ether" -- Medicine restores MP.  Stronger that Ether.  MP restore 50
+
+"Hi-Potion" -- Medicine restores HP.  Stronger that Potion.  HP restore 70
+
+"Holy Water" -- Holy water that reviveds dead.
+  CANCEL: Undead - Blood Suck
+
+"Maiden's Kiss" -- Medicine used to restore units who've become frogs.
+  CANCEL: Frog
+
+"Phoenix Down" -- Mysterious feather revives dead units.  Disappears after use.
+  CANCEL: Dead
+
+"Potion" -- Medicine restores HP.  HP restore 30
+
+"Remedy" -- Remedy that cures various abnormal status.
+  CANCEL: Petrify - Darkness - Confusion - Silence - Oil - Frog - Poison - Sleep
+
+"Soft -- Tool to cure pertrified units. Needle breaks after one use.
+  CANCEL: Petrify
+
+"X-Potion" -- Medicine restores HP.  Stronger that Hi-Potion.  HP restore 150
+
+-----------------------------------------------------------------------------------------
+
+_________________________________________________________________________________________
+^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^
+-----------------------------------------------------------------------------------------
+
+                            R A R E  I T E M  L O C A T I O N (S)
+-----------------------------------------------------------------------------------------
+ 
+Use this grid to check for item locations with the "Move-Find Item" abiltiy:
+
+                                 1 2 3 4 5 6 7 8 9 10 
+
+                             1   ? ? ? ? ? ? ? ? ? ?
+                             2   ? ? ? ? ? ? ? ? ? ?
+                             3   ? ? ? ? ? ? ? ? ? ?
+                             4   ? ? ? ? ? ? ? ? ? ?
+                             5   ? ? ? ? ? ? ? ? ? ?
+                             6   ? ? ? ? ? ? ? ? ? ?
+                             7   ? ? ? ? ? ? ? ? ? ?
+                             8   ? ? ? ? ? ? ? ? ? ?
+                             9   ? ? ? ? ? ? ? ? ? ?
+                            10   ? ? ? ? ? ? ? ? ? ?   
+
+(If the battle map is greater than 10 x 10, simply expand this grid; I will indicate some
+ landmarks and/or features to identify the way I set up the grid, since it is possible to
+ move the battle map's angles. For example, I will tell you that in this battle map grid,
+ quadrant (1,1) has a tree, and (2,4) is a grass patch with 4H height.) 
+-----------------------------------------------------------------------------------------
+(NOTE: In alphabetical order, but NOT by item type)
+* - refers to the "ulitmate" version of each weapon; THIS version CANNOT be purchased.
+
+"Blast Gun" ------- (1) Find ('Move-Find Item' ability) at 'Bridge' battle. !UNVERIFIED!
+
+"Blood Sword" ----- (1) Steal from Gafgarion at 'Golgorond Execution Site' battle.
+
+"Chantage" -------- (1) Steal from Meliadoul at 'Bervenia Free City' battle.
+
+"Defender" -------- (1) Steal from Meliadoul at 'Bervenia Free City' battle.
+
+"Dragon Whiskers" - (1) Poach a Red Dragon (resale: 44,000 Gil).
+
+"Excalibur" ------- (1) Orlandu joins your party with it.
+
+"Estucheon*" ------ (1) Find ('Move-Find Item' ability) at 'Nelvesaka Temple' on one of
+                        the pillars where the Hydras are. !UNVERIFIED!
+
+"Genji Armor" ----- (1) Steal from Elmdor at 'Limberry Castle' (1st battle).
+
+"Genji Gauntlet" -- (1) Steal from Elmdor at 'Limberry Castle' (1st battle).
+
+"Genji Helmet" ---- (1) Steal from Elmdor at 'Limberry Castle' (1st battle).
+
+"Genji Shield" ---- (1) Steal from Elmdor at 'Limberry Castle' (1st battle).
+
+"Javelin*" -------- (1) Find ('Move-Find Item' ability) at 'Nelvesaka Temple' on one of
+                        the pillars where the Hydras are. !UNVERIFIED!
+
+"Koga Knife" ------ (1) Find ('Move-Find Item' ability) at 'Bridge' battle. !UNVERIFIED!
+
+"Masamune" -------- (1) Steal from Elmdor at 'Limberry Castle' (1st battle).
+
+"Materia Blade" --- (1) Find ('Move-Find Item' ability) at the highest point of 'Bervenia 
+                         Volcano'.
+
+"Nagrarock" ------- (1) Poach a Porky (resale: 10 Gil).
+                    (2) Find ('Move-Find Item' ability) somewhere in the Deep Dungeon(?).
+
+"Rubber Costume" -- (1) Poach a Hydra (resale: 48,000 Gil).
+
+"Zorlin Shape" ---- (1) Poach a Plague (the rare item; harder to find).
+
+"Sasuke Knife" ---- (1) Find ('Move-Find Item' ability) at 'Nelvesaka Temple' battle 
+                        towards the back. !UNVERIFIED!
+        
+"Scorpion Tail" --- (1) Poach a Hyudra (resale: 40,000 Gil).
+
+"Vanish Mantle" --- (1) Find ('Move-Find Item' ability) at 'Germinas Peak' battle at the
+                         highest peak. !UNVERIFIED!
+
+"Whale Whisker" --- (1) Poach a Tiamat (resale: 37,500 Gil).
+
+_________________________________________________________________________________________
+^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^
+-----------------------------------------------------------------------------------------
+CONTRIBUTIONS:
+
+Troy Ruhmann ------------>                                               [troymr@usa.net] 
+  -- "Zorlin Shape
+       Knife made in cutlery capital.
+       Attack Power: 12
+       Evade %: 10%
+       2 Swords
+       Add: Sleep
+     "It cost me 6,000 gil to buy it in the Fur shop."
+      THNX... If anyone can tell me which monster was poached; I could then add it to the
+       Rare Item Location section.  =)
+  -- The monster is the Plague
+  
+  -- "Mace of Zeus
+      Staff that strengthens the power of the user.
+      Attack power: 6
+      Evade %: 15%
+      2-swords
+      2-hands
+      At: Physical +2
+          Magic +1
+      Found in the Deep Dungeon level "Delta" at coordinates (1,6) I think."
+
+Alex F. ---------------->                                          [asfryman@hotmail.com]
+  -- Scorpion Tail, Whale Whisker, Sasuke Knife, Koga Knife, Blast Gun, Rubber Costume, 
+     Javelin*, Escutcheon*, Nagrarock --> info AND location ^_^ (THNX)
+
+
+?????? ----------------->                                           [FlareofFury@aol.com]
+  -- Maximillion, Grand Helmet, Cursed Ring, Ribbon, FS Bag, Stone Gun, Fairy Harp, 
+     Ryozan Silk, Secret Clothes, Vanish Mantle, Cherche, Slaty Rage, Setiemson.
+  -- Fixed info on Sleep Edge, Koga Knife, Nagrarok.
+
+?????? ----------------->                                               [RcSoLjA@aol.com]
+  -- New sword i've NEVER heard of - Excalipar.  Need info; description; ANYTHING. but
+     Thnx ^_~.  Also the location of the vanish mantle.
+
+
+_________________________________________________________________________________________
+^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^
+-----------------------------------------------------------------------------------------
+VERSION INFO:
+
+v1.00 (13-Jun-1999)  --  Initial Release
+      (21-Jul-2000)  --  Initial Re-release (after being lost for a year)
+      (25-Jul-2000)  --  Took me four days to reorganize the list... hopefully this is a 
+                          final version.
+      (29-Jul-2000)  --  Got a little lazy, but, to compensate, I decided to add all the 
+                          attack and recovery items.
+
+v1.1  (04-Aug-2000)  --  Decided to change the format to reduce size. I'm gonna simulate  
+                         the way it is displayed in the game when you look up the item's 
+                         information(i.e, hit "select" on the item) Let's hope it works.
+                         I also started the "Item Location Section" at the bottom of the
+                         FAQ.
+
+v1.11 (11-Aug-2000)  --  First contribution!!!!  =)  Completed contribution (12-Aug-2000)
+
+v1.12 (12-Aug-2000)  --  Added a grid for any "Move-Find Item contributions. And another
+                         contribution.
+
+v1.20 (20-Oct-2000)  --  Added BIG chunk of information.  My thanks go to Alex F. !!!
+
+v1.30 (13-Apr-2001)  --  Been a WHILE since I updated, but that all changed thnx to a BIG
+                         contribution by FlareofFury@aol.com!! THNX.
+
+_________________________________________________________________________________________
+^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^*+_^
+-----------------------------------------------------------------------------------------
+DISCLAIMER/COPYRIGHT:
+
+This FAQ can be freely distributed, however ONLY in its entirety and with due credit to
+its author. It has taken me ALOT of time and effort to do this. If you wish to use this 
+information for your own FAQ or web-page, etc.  PLEASE give credit I don't mind sharing 
+this information otherwise I would not have sent it to GameFAQs.com.   I give credit to
+ANY contributions, and I only expect of others what I expect of myself.
+_________________________________________________________________________________________
+
+*Final Fantasy Tactics: Item List* by *Vercingetorix*
+</users/%21Vercingetorix/contributions>
+*Version:* 1.30 | *Last Updated:* 2001-04-13 | *View/Download Original
+File*
+<http://dw.cbsi.com/redir?asid=0&astid=8&siteid=19&edid=107&destCat=&destURL=http%3A%2F%2Fdb.gamefaqs.com%2Fconsole%2Fpsx%2Ffile%2Ffinal_fantasy_tactics_items_a.txt>
+
+Hosted by GameFAQs </>
+Return to *Final Fantasy Tactics (PS) FAQs & Guides*
+</ps/197339-final-fantasy-tactics/faqs>
