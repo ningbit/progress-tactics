@@ -9,8 +9,16 @@ class Character < ActiveRecord::Base
   has_many :job_classes, through: :jobs
   has_many :jobs
 
+  def current_job_class
+    JobClass.find(self.current_job.id)
+  end
+
+  def current_job
+    Job.find(self.current_job_id)
+  end
+
   def name
-    "#{self.topic.name} #{JobClass.find(self.current_job_id).name}"
+    "#{self.topic.name} #{self.current_job_class.name} Level #{current_job.level}"
   end
 
   def level
