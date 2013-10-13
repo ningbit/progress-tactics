@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  job_class_id: 1
+  topic_character_id: 1
+  level: 1
+
+two:
+  job_class_id: 1
+  topic_character_id: 1
+  level: 1

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  current_job_id: 1
+  level: 1
+  color: 1
+
+two:
+  current_job_id: 1
+  level: 1
+  color: 1
