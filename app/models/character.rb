@@ -20,7 +20,7 @@ class Character < ActiveRecord::Base
   private
 
   def initialize_jobs
-    
+    JobClass.all.each { |job_class| self.jobs.build(job_class_id: job_class.id) }
   end
 
 end
