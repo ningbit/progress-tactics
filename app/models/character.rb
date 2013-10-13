@@ -29,13 +29,16 @@ class Character < ActiveRecord::Base
 
   def initialize_jobs
     JobClass.all.each { |job_class| self.jobs.build(job_class_id: job_class.id) }
+    self.save
     initialize_job_levels
   end
 
   # initialize Squire and Chemist to Level 1
   def initialize_job_levels
-    self.jobs.where(job_class_id: 1).first.level = 1
-    self.jobs.where(job_class_id: 10).first.level = 1
+    self.jobs.where(job_class_id: [1,10]).each do |job|
+      job.level = 1
+      job.save
+    end
   end
 
 end
