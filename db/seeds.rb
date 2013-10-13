@@ -34,8 +34,6 @@ u = User.new(first_name: "Fan",last_name: "Yap", email:"fan.yap@gmail.com")
 u.team = Team.new
 u.save
 
-
-
 c1 = Character.create!(topic_id: t1.id)
 c2 = Character.create!(topic_id: t2.id)
 c3 = Character.create!(topic_id: t3.id)
