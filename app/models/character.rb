@@ -10,7 +10,7 @@ class Character < ActiveRecord::Base
   has_many :jobs
 
   def current_job_class
-    JobClass.find(self.current_job.id)
+    self.current_job.job_class
   end
 
   def current_job
@@ -29,6 +29,13 @@ class Character < ActiveRecord::Base
 
   def initialize_jobs
     JobClass.all.each { |job_class| self.jobs.build(job_class_id: job_class.id) }
+    initialize_job_levels
+  end
+
+  # initialize Squire and Chemist to Level 1
+  def initialize_job_levels
+    self.jobs.where(job_class_id: 1).first.level = 1
+    self.jobs.where(job_class_id: 10).first.level = 1
   end
 
 end
