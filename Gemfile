@@ -7,7 +7,6 @@ gem 'rails', '3.2.13'
 
 group :development do
   gem 'sqlite3'
-  gem 'nokogiri'
 end
 
 group :production do
@@ -42,3 +41,5 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+gem 'nokogiri'
