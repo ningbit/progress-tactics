@@ -26,7 +26,7 @@ t2 = Topic.create!(name: "HTML")
 t3 = Topic.create!(name: "SQL")
 t4 = Topic.create!(name: "Bash")
 t5 = Topic.create!(name: "Git")
-t5 = Topic.create!(name: "CSS")
+t6 = Topic.create!(name: "CSS")
 
 
 # then initialize User
@@ -37,10 +37,24 @@ u.save
 c1 = Character.create!(topic_id: t1.id)
 c2 = Character.create!(topic_id: t2.id)
 c3 = Character.create!(topic_id: t3.id)
+c4 = Character.create!(topic_id: t4.id)
+c5 = Character.create!(topic_id: t5.id)
+c6 = Character.create!(topic_id: t6.id)
 
-u.team.characters << [c1,c2,c3]
+u.team.characters << [c1,c2,c3,c4,c5,c6]
 
-c2.current_job_id = 10
+c5.current_job_id = 10
+c6.current_job_id = 10
+
+c3.gender = "F"
+c4.gender = "F"
+c6.gender = "F"
+
+c2.save
+c3.save
+c4.save
+c5.save
+c6.save
 
 u.save
 
