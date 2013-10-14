@@ -2,12 +2,27 @@
 
 <h1><%= @user.first_name %>'s Team</h1>
 
-<ul>
-  <% @team.characters.each do |character| %>
-    <img src="/images/jobs/<%=character.current_job_class.name + character.color.to_s + character.gender%>.gif">
-   <li><%= character.name %></li>
-  <% end %>
-</ul>
+<div class="clearfix">
+  <ul class="team">
+    <% @team.characters.each do |character| %>
+
+      <li>
+        <img src="/images/jobs/<%=character.current_job_class.name + character.color.to_s + character.gender%>.gif"><br />
+        <%= character.name %><br />
+        EXP: <%= character.total_exp %>
+      </li>
+    <% end %>
+  </ul>
+</div>
+
+<h1>Task List</h1>
+<br />
+<br />
+<br />
+<h1>Completions</h1>
+<br />
+<br />
+<br />
 
 
 <%= link_to 'Edit', edit_user_path(@user) %> |

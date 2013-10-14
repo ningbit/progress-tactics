@@ -18,7 +18,7 @@ class Character < ActiveRecord::Base
   end
 
   def name
-    "#{self.topic.name} #{self.current_job_class.name} Level #{current_job.level}"
+    "#{self.topic.name} #{self.current_job_class.name} Lvl #{current_job.level}"
   end
 
   def level
