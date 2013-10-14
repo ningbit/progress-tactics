@@ -4,4 +4,12 @@ class Team < ActiveRecord::Base
   belongs_to :user
   has_many :topics, through: :characters
   has_many :characters
+
+  def change_color(num)
+    self.characters.each do |char|
+      char.color = num
+      char.save
+    end
+  end
+
 end
