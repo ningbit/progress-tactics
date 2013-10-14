@@ -30,7 +30,7 @@ t6 = Topic.create!(name: "CSS")
 
 
 # then initialize User
-u = User.new(first_name: "Fan",last_name: "Yap", email:"fan.yap@gmail.com")
+u = User.new(first_name: "Ning",last_name: "Yap", email:"ning.yap@gmail.com")
 u.team = Team.new
 u.save
 
@@ -57,4 +57,6 @@ c5.save
 c6.save
 
 u.save
+
+u.team.change_color(5)
 

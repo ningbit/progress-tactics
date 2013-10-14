@@ -1,7 +1,7 @@
 ProgressTactics::Application.routes.draw do
   resources :users
 
-  root :to => 'users#index'
+  root :to => "users#show", :id => '1'
 
 
   # The priority is based upon order of creation:
