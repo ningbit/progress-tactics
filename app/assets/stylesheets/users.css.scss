@@ -2,79 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-body {
-  background-color: #EEE;
-  color: #333;
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
-  text-align: center;
-}
-
-p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
-}
-
-pre {
-  background-color: #eee;
-  padding: 10px;
-  font-size: 11px;
-}
-
-a {
-  color: #000;
-  &:visited {
-    color: #666;
-  }
-  &:hover {
-    color: #fff;
-    background-color: #000;
-  }
-}
-
-div {
-  &.field, &.actions {
-    margin-bottom: 10px;
-  }
-}
-
-#notice {
-  color: green;
-}
-
-.field_with_errors {
-  padding: 2px;
-  background-color: red;
-  display: table;
-}
-
-#error_explanation {
-  width: 450px;
-  border: 2px solid red;
-  padding: 7px;
-  padding-bottom: 0;
-  margin-bottom: 20px;
-  background-color: #f0f0f0;
-  h2 {
-    text-align: left;
-    font-weight: bold;
-    padding: 5px 5px 5px 15px;
-    font-size: 12px;
-    margin: -7px;
-    margin-bottom: 0px;
-    background-color: #c00;
-    color: #fff;
-  }
-  ul li {
-    font-size: 12px;
-    list-style: square;
-  }
-}
-
 .container ul {
   display: inline-block;
+  text-shadow: none;
+  color: #222;
 
 }
 
@@ -85,19 +16,23 @@ div {
     padding: 20px 10px;
     text-align: center;
     list-style-type: none;
-    background-color: white;
+    background-color: transparent;
+    opacity: 0.97;
     border-radius: 15px;
     min-width: 150px;
-    -webkit-transition: box-shadow 0.5s;
-    transition: box-shadow 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
 
     &:hover{
       cursor: pointer;
-      box-shadow: 2px 2px 15px #777;
+      box-shadow: 1px 1px 15px #222;
+      opacity: 1;
+      background-color: #FFF;
     }
   }
   img {
     border: #777 solid 2px;
     border-radius: 5px;
+    margin-bottom: 5px;
   }
 }

@@ -97,7 +97,135 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+  background-color: #FEFEFE;
+/*  background: url('/images/tile-back3.jpg');*/
+  background: url('/images/lined_paper.png');
+  color: #EEE;
+/*  text-shadow: 2px 2px 5px #222;*/
+  color: #222;
+  font-family: 'Montaga', verdana, arial, helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  margin: 0;
+  opacity: 0.97;
+}
 
+html, body, #container { height: 100%; }
+
+#container { height: auto; min-height: 90%; }
+
+#content { padding-bottom: 3em; }
+
+p, ol, ul, td {
+/*  font-family: verdana, arial, helvetica, sans-serif;*/
+  font-size: 15px;
+  line-height: 18px;
+}
+
+h1 {
+  font-family: Garamond, arial, helvetica, sans-serif;
+  font-size: 3em;
+}
+
+ul {
+  margin: 0;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a {
+  color: #000;
+  &:visited {
+    color: #666;
+  }
+  &:hover {
+    color: #fff;
+    background-color: #000;
+  }
+}
+
+div {
+  &.field, &.actions {
+    margin-bottom: 10px;
+  }
+}
+
+nav {
+  padding: 5px;
+  margin: 0;
+/*  font-family: Helvetica;*/
+  font-size: 2em;
+  color: #EEE;
+  text-align: left;
+/*  background-color: #222;*/
+  min-height: 20px;
+  min-width: 300px;
+
+  /* IE10 Consumer Preview */ 
+  background-image: -ms-linear-gradient(left, #000 40%, #FFF 170%);
+
+  /* Mozilla Firefox */ 
+  background-image: -moz-linear-gradient(left, #000 40%, #FFF 170%);
+
+  /* Opera */ 
+  background-image: -o-linear-gradient(left, #000 40%, #FFF 170%);
+
+  /* Webkit (Safari/Chrome 10) */ 
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0.4, #222222), color-stop(1.7, #FFFFFF));
+
+  /* Webkit (Chrome 11+) */ 
+  background-image: -webkit-linear-gradient(left, #000 40%, #FFF 170%);
+
+  /* W3C Markup, IE10 Release Preview */ 
+  background-image: linear-gradient(to right, #222 40%, #FFF 170%);
+}
+
+#footer {
+ clear: both;
+ position: relative;
+ z-index: 10;
+ height: 3em;
+ margin-top: -3em;
+}
+
+#notice {
+  color: green;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0px;
+    background-color: #c00;
+    color: #fff;
+  }
+  ul li {
+    font-size: 12px;
+    list-style: square;
+  }
+}
 
 
 

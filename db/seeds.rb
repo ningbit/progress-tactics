@@ -40,5 +40,7 @@ c3 = Character.create!(topic_id: t3.id)
 
 u.team.characters << [c1,c2,c3]
 
+c2.current_job_id = 10
+
 u.save
 

@@ -5,10 +5,24 @@
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Montaga' rel='stylesheet' type='text/css'>
 </head>
 <body>
+  <nav>
+    Progress Tactics
+  </nav>
+<div id="container">
+  <div id="content">
+    <%= yield %>
+  </div>
+</div>
 
-<%= yield %>
-
+<div id="footer">
+<audio controls loop>
+<!--   <source src="/music/team_making.ogg" type="audio/ogg"> -->
+  <source src="/music/team_making.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
 </body>
 </html>
