@@ -3,11 +3,12 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-  background-color: #fff;
+  background-color: #EEE;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
+  text-align: center;
 }
 
 p, ol, ul, td {
@@ -72,14 +73,31 @@ div {
   }
 }
 
+.container ul {
+  display: inline-block;
+
+}
+
 .team {
   li {
     float: left;
     margin: 10px;
+    padding: 20px 10px;
     text-align: center;
     list-style-type: none;
+    background-color: white;
+    border-radius: 15px;
+    min-width: 150px;
+    -webkit-transition: box-shadow 0.5s;
+    transition: box-shadow 0.5s;
+
+    &:hover{
+      cursor: pointer;
+      box-shadow: 2px 2px 15px #777;
+    }
   }
   img {
-    border: #777 solid 3px;
+    border: #777 solid 2px;
+    border-radius: 5px;
   }
 }
