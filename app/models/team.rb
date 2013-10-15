@@ -13,7 +13,7 @@ class Team < ActiveRecord::Base
   end
 
   def tasks
-    self.characters.collect { |char| char.tasks }.flatten
+    self.characters.collect { |char| char.tasks }.flatten.uniq
   end
 
 end

@@ -1,7 +1,7 @@
 require 'csv'
 
 class Task < ActiveRecord::Base
-  attr_accessible :character_id, :contents, :exp, :hours, :name, :status, :type_id
+  attr_accessible :character_id, :contents, :exp, :hours, :name, :status, :number, :type_id
   validates :name, presence: true
   validates :type_id, presence: true
 
@@ -22,6 +22,7 @@ class Task < ActiveRecord::Base
       new_task[:exp] = task["exp"].to_i
       new_task[:hours] = task["hours"].to_f
       new_task[:status] = task["status"].to_i
+      new_task[:number] = task["number"].to_i
       puts "intializing task #{new_task[:name]}"
 
 

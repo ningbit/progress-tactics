@@ -8,6 +8,7 @@ class CreateTasks < ActiveRecord::Migration
       t.float :hours, default: 0.5
       t.integer :type_id
       t.datetime :start_date
+      t.integer :number
 
       t.timestamps
     end
