@@ -1,3 +1,5 @@
+require 'rails_autolink'
+
 class UsersController < ApplicationController
   # GET /users
   # GET /users.json

@@ -2,17 +2,17 @@
 
 <h1><%= @user.first_name %>'s Team</h1>
 
-<div class="clearfix container">
-  <ul class="team">
-    <% @team.characters.each do |character| %>
+<div class="clearfix container team-container">
+    <ul class="team">
+      <% @team.characters.each do |character| %>
 
-      <li>
-        <img src="/images/jobs/<%=character.current_job_class.name + character.color.to_s + character.gender%>.gif"><br />
-        <%= character.name %><br />
-        EXP: <%= character.total_exp %>
-      </li>
-    <% end %>
-  </ul>
+        <li>
+          <img src="/images/jobs/<%=character.current_job_class.name + character.color.to_s + character.gender%>.gif"><br />
+          <%= character.name %><br />
+          EXP: <%= character.total_exp %>
+        </li>
+      <% end %>
+    </ul>
 </div>
 
 <h1>Task List</h1>
@@ -30,9 +30,20 @@
             <% end %>
           </span>
         </div>
+        <div class="task-stats task-exp">
+          <span><%= task.exp %></span><br />
+          EXP
+        </div>           
+        <div class="task-stats task-hrs">
+          <%= task.hours == 0.5 ? "30 min" : "#{task.hours} hrs" %>
+        </div>        
         <div class="task-description"> 
-          <%= task.name%>
+          #<%= task.number %>)&nbsp<%= task.name %><br />
+          <div>
+            <%= auto_link(task.contents) %>
+          </div>
         </div>
+
       </li>
     <% end %>
   </ul>
