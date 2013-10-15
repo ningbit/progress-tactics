@@ -9,6 +9,8 @@ class Character < ActiveRecord::Base
   has_many :job_classes, through: :jobs
   has_many :jobs
 
+  has_many :tasks
+
   def current_job_class
     self.current_job.job_class
   end
