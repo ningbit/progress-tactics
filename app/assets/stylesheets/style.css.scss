@@ -110,6 +110,7 @@ body {
   text-align: center;
   margin: 0;
   opacity: 0.97;
+  -webkit-backface-visibility: hidden;
 }
 
 html, body, #container { height: 100%; }
@@ -227,11 +228,19 @@ nav {
   }
 }
 
+// .container > div {
+//   width: 960px;
+//   text-align: center;
+// }
 .container ul {
-  display: inline-block;
+  display: block;
   text-shadow: none;
   color: #222;
+}
 
+.team-container {
+  width: 1000px;
+  margin: 0 auto;
 }
 
 .team {

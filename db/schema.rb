@@ -54,6 +54,7 @@ ActiveRecord::Schema.define(:version => 20131015162531) do
     t.float    "hours",      :default => 0.5
     t.integer  "type_id"
     t.datetime "start_date"
+    t.integer  "number"
     t.datetime "created_at",                  :null => false
     t.datetime "updated_at",                  :null => false
   end

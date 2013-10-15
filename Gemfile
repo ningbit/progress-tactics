@@ -43,3 +43,4 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 gem 'nokogiri'
+gem 'rails_autolink'
