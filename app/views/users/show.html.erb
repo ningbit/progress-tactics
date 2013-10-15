@@ -16,7 +16,10 @@
 </div>
 
 <h1>Task List</h1>
-<br />
+<ul>
+<% @tasks.each do |task| %>
+	<li><%= task.name%></li>
+<% end %>
 <br />
 <br />
 <h1>Completions</h1>

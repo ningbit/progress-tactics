@@ -15,6 +15,7 @@ class UsersController < ApplicationController
   def show
     @user = User.find(params[:id])
     @team = @user.team
+    @tasks = @team.tasks
 
     respond_to do |format|
       format.html # show.html.erb

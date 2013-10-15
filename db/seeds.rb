@@ -60,3 +60,12 @@ u.save
 
 u.team.change_color(5)
 
+# Initialize Type
+type1 = Type.create!(name: "Tutorial")
+type2 = Type.create!(name: "Coding")
+type3 = Type.create!(name: "Reading")
+
+# Intialize Tasks
+
+
+

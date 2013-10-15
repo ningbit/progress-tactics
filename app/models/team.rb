@@ -12,4 +12,8 @@ class Team < ActiveRecord::Base
     end
   end
 
+  def tasks
+    self.characters.collect { |char| char.tasks }.flatten
+  end
+
 end

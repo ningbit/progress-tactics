@@ -6,7 +6,8 @@ class CreateTasks < ActiveRecord::Migration
       t.integer :status, default: 0
       t.integer :exp, default: 50
       t.float :hours, default: 0.5
-      t.integer :character_id
+      t.integer :type_id
+      t.datetime :start_date
 
       t.timestamps
     end

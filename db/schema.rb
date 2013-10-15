@@ -11,7 +11,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131015150715) do
+ActiveRecord::Schema.define(:version => 20131015162531) do
+
+  create_table "character_tasks", :force => true do |t|
+    t.integer  "character_id"
+    t.integer  "task_id"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
 
   create_table "characters", :force => true do |t|
     t.integer  "topic_id"
@@ -42,12 +49,13 @@ ActiveRecord::Schema.define(:version => 20131015150715) do
   create_table "tasks", :force => true do |t|
     t.string   "name"
     t.string   "contents"
-    t.integer  "status",       :default => 0
-    t.integer  "exp",          :default => 50
-    t.float    "hours",        :default => 0.5
-    t.integer  "character_id"
-    t.datetime "created_at",                    :null => false
-    t.datetime "updated_at",                    :null => false
+    t.integer  "status",     :default => 0
+    t.integer  "exp",        :default => 50
+    t.float    "hours",      :default => 0.5
+    t.integer  "type_id"
+    t.datetime "start_date"
+    t.datetime "created_at",                  :null => false
+    t.datetime "updated_at",                  :null => false
   end
 
   create_table "teams", :force => true do |t|
@@ -58,6 +66,12 @@ ActiveRecord::Schema.define(:version => 20131015150715) do
   end
 
   create_table "topics", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "types", :force => true do |t|
     t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
