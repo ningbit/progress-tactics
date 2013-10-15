@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  contents: MyString
+  status: 1
+  exp: 1
+  hours: 1.5
+  character_id: 1
+
+two:
+  name: MyString
+  contents: MyString
+  status: 1
+  exp: 1
+  hours: 1.5
+  character_id: 1
