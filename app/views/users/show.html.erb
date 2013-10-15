@@ -16,10 +16,27 @@
 </div>
 
 <h1>Task List</h1>
-<ul>
-<% @tasks.each do |task| %>
-	<li><%= task.name%></li>
-<% end %>
+<div class= "clearfix container">
+  <ul class="task">
+    <% @tasks.each do |task| %>
+    	<li>
+        <div class="task-item">
+          <span class="task-characters">
+            <% task.characters.each do |character| %>
+              <span>
+                <img src="/images/jobs/<%=character.current_job_class.name + character.color.to_s + character.gender%>-SW.gif"></br>
+                <%= character.topic.name %>
+              </span>
+            <% end %>
+          </span>
+        </div>
+        <div class="task-description"> 
+          <%= task.name%>
+        </div>
+      </li>
+    <% end %>
+  </ul>
+</div>
 <br />
 <br />
 <h1>Completions</h1>

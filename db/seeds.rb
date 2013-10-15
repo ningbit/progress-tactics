@@ -66,6 +66,6 @@ type2 = Type.create!(name: "Coding")
 type3 = Type.create!(name: "Reading")
 
 # Intialize Tasks
-
+Task.load_csv('lib/assets/tasks_fan.csv', User.first)
 
 
