@@ -3,9 +3,9 @@ class CreateTasks < ActiveRecord::Migration
     create_table :tasks do |t|
       t.string :name
       t.string :contents
-      t.integer :status
-      t.integer :exp
-      t.float :hours
+      t.integer :status, default: 0
+      t.integer :exp, default: 50
+      t.float :hours, default: 0.5
       t.integer :character_id
 
       t.timestamps

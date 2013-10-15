@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131013211734) do
+ActiveRecord::Schema.define(:version => 20131015150715) do
 
   create_table "characters", :force => true do |t|
     t.integer  "topic_id"
@@ -37,6 +37,17 @@ ActiveRecord::Schema.define(:version => 20131013211734) do
     t.integer  "level",        :default => -1
     t.datetime "created_at",                   :null => false
     t.datetime "updated_at",                   :null => false
+  end
+
+  create_table "tasks", :force => true do |t|
+    t.string   "name"
+    t.string   "contents"
+    t.integer  "status",       :default => 0
+    t.integer  "exp",          :default => 50
+    t.float    "hours",        :default => 0.5
+    t.integer  "character_id"
+    t.datetime "created_at",                    :null => false
+    t.datetime "updated_at",                    :null => false
   end
 
   create_table "teams", :force => true do |t|
