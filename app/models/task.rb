@@ -45,7 +45,7 @@ class Task < ActiveRecord::Base
 
       topic_array.each do |topic|
         if topic_id = Topic.find_by_name(topic).try("id")
-          if character = user.team.characters.where("topic_id is ?",topic_id).first
+          if character = user.team.characters.where(topic_id: topic_id).first
             character.tasks << t
             puts "Add to Character: #{character.topic.name}"
           end
