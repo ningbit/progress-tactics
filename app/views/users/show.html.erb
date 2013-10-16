@@ -21,14 +21,14 @@
     <% @tasks.each do |task| %>
     	<li>
         <div class="task-item">
+        <span class="checkmark"><img src="/images/checkmark2.gif" width="90px" alt="checkmark"></span>            
           <span class="task-characters">
             <% task.characters.each do |character| %>
               <span>
                 <img src="/images/jobs/<%=character.current_job_class.name + character.color.to_s + character.gender%>-SW.gif"></br>
                 <%= character.topic.name %>
               </span>
-            <% end %>
-            <span class="checkmark"><img src="/images/checkmark2.gif" width="90px" alt="checkmark"></span>            
+            <% end %>          
           </span>
         </div>
         <div class="task-stats task-exp">
