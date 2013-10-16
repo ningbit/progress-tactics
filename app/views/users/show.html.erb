@@ -35,7 +35,7 @@
           EXP
         </div>           
         <div class="task-stats task-hrs">
-          <%= task.hours == 0.5 ? "30 min" : "#{task.hours} hrs" %>
+          <%= task.hours == 0.5 ? "30 min" : "#{task.hours.to_f.round(1)} hrs" %>
         </div>        
         <div class="task-description"> 
           #<%= task.number %>)&nbsp<%= task.name %><br />

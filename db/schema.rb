@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(:version => 20131015162531) do
     t.integer  "team_id"
     t.integer  "current_job_id", :default => 1
     t.integer  "total_exp",      :default => 0
-    t.integer  "color",          :default => 1
+    t.integer  "color",          :default => 5
     t.string   "gender",         :default => "M"
     t.datetime "created_at",                      :null => false
     t.datetime "updated_at",                      :null => false
@@ -48,7 +48,7 @@ ActiveRecord::Schema.define(:version => 20131015162531) do
 
   create_table "tasks", :force => true do |t|
     t.string   "name"
-    t.string   "contents"
+    t.text     "contents"
     t.integer  "status",     :default => 0
     t.integer  "exp",        :default => 50
     t.float    "hours",      :default => 0.5

@@ -5,7 +5,7 @@ class CreateCharacters < ActiveRecord::Migration
       t.integer :team_id
       t.integer :current_job_id, default: 1
       t.integer :total_exp, default: 0
-      t.integer :color, default: 1
+      t.integer :color, default: 5
       t.string :gender, default: "M"
 
       t.timestamps
