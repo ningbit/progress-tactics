@@ -7,7 +7,6 @@ gem 'rails', '3.2.13'
 
 group :development do
   gem 'sqlite3'
-  gem 'thin'
 end
 
 group :production do
@@ -45,3 +44,4 @@ gem 'jquery-rails'
 
 gem 'nokogiri'
 gem 'rails_autolink'
+gem 'thin'
