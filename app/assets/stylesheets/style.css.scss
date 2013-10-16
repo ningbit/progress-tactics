@@ -99,8 +99,7 @@ textarea {
 
 body {
   background-color: #FEFEFE;
-/*  background: url('/images/tile-back3.jpg');*/
-  background: url('/images/lined_paper.png');
+  background: url('/images/lined_paper.gif');
   color: #EEE;
 /*  text-shadow: 2px 2px 5px #222;*/
   color: #222;
@@ -250,12 +249,12 @@ nav {
     padding: 20px 10px;
     text-align: center;
     list-style-type: none;
-    background-color: transparent;
     opacity: 0.97;
     border-radius: 15px;
     min-width: 150px;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
+    
 
     &:hover{
       cursor: pointer;
@@ -269,6 +268,7 @@ nav {
     border: 2px solid #777;
     border-radius: 5px;
     margin-bottom: 5px;
+    background-color: rgba(255,255,255,0.7);
   }
 }
 
