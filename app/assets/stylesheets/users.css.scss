@@ -12,10 +12,20 @@
     margin: 10px auto;
     width: 900px;
     height: 90px;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
+    -webkit-transition: background-color 0.5s, box-shadow 0.5s;
+    transition: background-color 0.5s, box-shadow 0.5s;
     background-color: rgba(255,255,255,0.7);
 
+    span.checkmark{
+    visibility:hidden;
+    position:absolute;
+    left: 75%;
+    margin-top: -20px;
+    filter:alpha(opacity=60);
+    -moz-opacity:0.6;
+    -khtml-opacity: 0.6;
+    opacity: 0.6;
+  }
     &:hover {
       border: 2px solid #555;
       cursor: pointer;
@@ -23,6 +33,10 @@
       background-color: #FFF;
       // background: white;
       // background-color: rgba(107,43,37,0.13);
+      span.checkmark{
+        visibility:visible;
+      }
+      // background: #FFF url('/images/checkmark2.gif') 850px -5px no-repeat;
     }
 
     a:visited {
@@ -102,6 +116,7 @@
       background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.01) -20%, rgba(0,0,0,0.1) 50%, rgba(255,255,255,0.01) 120%);
       background-image: linear-gradient(to bottom, #FFFFFF 0%, rgba(0,0,0,0.04) 40%, rgba(0,0,0,0.04) 60%, #FFFFFF 100%);      
       background-image: -moz-linear-gradient(top, rgba(255,255,255,0.01) -20%, rgba(0,0,0,0.1) 50%, rgba(255,255,255,0.01) 120%);      
+      // background: url('/images/clock1.gif') no-repeat;
     }
   }
 }

@@ -1,5 +1,7 @@
 ProgressTactics::Application.routes.draw do
   resources :users
+  resources :tasks
+  resources :characters
 
   root :to => "users#show", :id => '1'
 

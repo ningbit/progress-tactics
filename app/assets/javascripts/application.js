@@ -13,3 +13,13 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+$(document).ready(function() {
+  $('.task-stats, .checkmark').on('click', function() {  
+      // $(this).closest('tr').fadeOut(); 
+      var completed = confirm("Complete Task?")
+      if (completed) {
+        $(this).closest('li').fadeOut(); 
+      }
+  });  
+});
