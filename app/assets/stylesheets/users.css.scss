@@ -17,16 +17,16 @@
     background-color: rgba(255,255,255,0.7);
 
     span.checkmark{
-    visibility:hidden;
-    position:absolute;
-    // left: 75%;
-    margin-left: 820px;
-    margin-top: -15px;
-    filter:alpha(opacity=60);
-    -moz-opacity:0.6;
-    -khtml-opacity: 0.6;
-    opacity: 0.6;
-  }
+      visibility:hidden;
+      position:absolute;
+      // left: 75%;
+      margin-left: 820px;
+      margin-top: -10px;
+      filter:alpha(opacity=60);
+      -moz-opacity:0.6;
+      -khtml-opacity: 0.6;
+      opacity: 0.6;
+    }
     &:hover {
       border: 2px solid #555;
       cursor: pointer;
@@ -34,10 +34,10 @@
       background-color: #FFF;
       // background: white;
       // background-color: rgba(107,43,37,0.13);
+
       span.checkmark{
         visibility:visible;
       }
-      // background: #FFF url('/images/checkmark2.gif') 850px -5px no-repeat;
     }
 
     a:visited {
@@ -95,7 +95,7 @@
 
     .task-exp {
       padding-top: 26px;
-      margin-left: -5px;
+      margin: 0 0 0 -5px;
 
       span {
         color: rgb(87,56,55);
