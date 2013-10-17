@@ -15,8 +15,11 @@
 //= require_tree .
 
 $(document).ready(function() {
-  $('.task-stats, .checkmark').on('click', function() {  
+  $('a').attr("target", "_blank");
+
+  $('.task li').on('click', function(e) {  
       // $(this).closest('tr').fadeOut(); 
+      if(e.target.nodeName == 'A') return;
       var completed = confirm("Complete Task?")
       if (completed) {
         $(this).closest('li').fadeOut(); 
