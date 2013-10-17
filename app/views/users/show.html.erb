@@ -18,11 +18,10 @@
 
 <div class= "clearfix container">
   <h1>Task List</h1>
-  <ul class="task">
+  <ul class="task active">
     <% @tasks.each do |task| %>
     	<li>
-        <div class="task-item">
-        <span class="checkmark"><img src="/images/checkmark2.gif" width="90px" alt="checkmark"></span>           
+        <div class="task-item">     
           <span class="task-characters">
             <% task.characters.each do |character| %>
               <span>
@@ -32,9 +31,10 @@
             <% end %>          
           </span>
         </div>
-        <div class="task-stats task-exp">
+        <div class="task-stats task-exp">         
           <span><%= task.exp %></span><br />
           EXP
+          <span class="checkmark"><img src="/images/checkmark2.gif" width="90px" alt="checkmark"></span> 
         </div>           
         <div class="task-stats task-hrs">
           <%= task.hours == 0.5 ? "30 min" : "#{task.hours.to_f.round(1)} hrs" %>
@@ -53,7 +53,9 @@
 </div>
 <br />
 <br />
-<h1>Completions</h1>
+<h1>Recently Completed</h1>
+<ul class="recently-completed task">
+</ul>
 <br />
 <br />
 <br />

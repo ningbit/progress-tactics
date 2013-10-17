@@ -1,3 +1,163 @@
 // Place all the styles related to the Tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.task li {
+  list-style-type: none;
+  display: block;
+  border: 2px solid #777;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px auto;
+  width: 900px;
+  height: 90px;
+  -webkit-transition: background-color 0.5s, box-shadow 0.5s;
+  transition: background-color 0.5s, box-shadow 0.5s;
+  background-color: rgba(255,255,255,0.7);
+
+  &:hover {
+    border: 2px solid #555;
+    cursor: pointer;
+    box-shadow: 1px 1px 15px #222;
+    background-color: #FFF;
+  }
+
+  a:visited {
+    color: #222
+  }
+
+  a:hover {
+    background-color:transparent;
+    color: #888;
+  }
+}  
+
+.task-characters {
+  // border: 2px solid #777;
+  border-radius: 5px;
+  padding: 5px;
+  span {
+    text-align: center;
+  }
+}
+
+.edit-pencil{
+  visibility:hidden;
+  position:relative;
+  filter:alpha(opacity=60);
+  -moz-opacity:0.6;
+  -khtml-opacity: 0.6;
+  opacity: 0.6;
+  img {
+    margin-top: -5px;
+    width:20px;
+    height:20px;
+    border: 2px solid #222;
+    border-radius: 5px;
+  }
+}    
+
+.task-description {
+  font-size: 1.3em;
+  text-align: left;
+  margin: 6px 230px 0 120px;
+  div {
+    margin: 6px 0 0 33px;
+    font-size: 0.7em;
+    min-height: 70px;
+  }
+  
+  &:hover .edit-pencil {
+    visibility:visible;
+  } 
+}
+
+.task-stats {
+  text-align: center;
+  float: right;
+  font-size: 1em;
+  line-height: 1.2em;
+  font-family: Garamond;
+  font-weight: bold;
+  color: #333;
+  padding: 12px 0 18px 15px;
+  width: 100px;
+}
+
+.task-exp {
+  padding-top: 26px;
+  margin: 0 0 0 -5px;
+
+  span {
+    color: rgb(87,56,55);
+    font-size: 50px;
+  }  
+  .checkmark{
+    visibility:hidden;
+    position:absolute;
+    // left: 75%;
+    margin-left: -35px;
+    margin-top: -76px;
+    filter:alpha(opacity=60);
+    -moz-opacity:0.6;
+    -khtml-opacity: 0.6;
+    opacity: 0.6;
+  }
+
+  &:hover .checkmark {
+    visibility: visible;
+  }
+}
+
+.task-hrs {
+  border-left: 2px solid #AAA;
+  border-right: 2px solid #AAA;
+  font-size: 30px;
+  padding: 15px 5px 18px 5px;
+  height: 76%;
+  margin: -5px 0 0 0;
+  line-height: 2;
+  /* IE10 Consumer Preview */ 
+  // background-image: -ms-linear-gradient(top, #FFFFFF -30%, #000000 50%, #FFFFFF 130%);
+  background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.01) -20%, rgba(0,0,0,0.1) 50%, rgba(255,255,255,0.01) 120%);
+  background-image: linear-gradient(to bottom, #FFFFFF 0%, rgba(0,0,0,0.04) 40%, rgba(0,0,0,0.04) 60%, #FFFFFF 100%);      
+  background-image: -moz-linear-gradient(top, rgba(255,255,255,0.01) -20%, rgba(0,0,0,0.1) 50%, rgba(255,255,255,0.01) 120%);      
+  // background: url('/images/clock1.gif') no-repeat;
+}
+
+.task-item {
+  text-align: left;
+  span {
+    float: left;
+    
+    img {
+      height: 70px;
+      margin: 0 7.5px;
+    }
+  }
+}
+
+.recently-completed.task li {
+
+  border: 2px solid #888;
+  background: url('/images/texturetastic_gray.png');
+  opacity: 0.8;
+
+  &:hover {
+    border-color: #666;   
+  }
+
+  .task-hrs {
+    background-image: none;
+  }
+
+  .task-exp .checkmark {
+    visibility: visible;
+  }
+
+  .task-description:hover .edit-pencil {
+    visibility:hidden;
+  }
+
+
+}

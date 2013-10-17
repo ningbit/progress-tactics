@@ -17,16 +17,21 @@
 $(document).ready(function() {
   $('a').attr("target", "_blank");
 
-  $('.task li').on('click', function(e) {  
-      // $(this).closest('tr').fadeOut(); 
-      if($(e.target).is('A')) return;
-      if($(e.target).parent().is('A')) {
-        e.preventDefault;
-        return;
-      }
-      var completed = confirm("Complete Task?")
+  $('.task-exp').on('click', function(e) {
+    var li = $(this).closest('li');
+    if (li.parent().hasClass('active')) {
+      // var completed = confirm("Complete Task?")
+      var completed = true;
       if (completed) {
-        $(this).closest('li').fadeOut(); 
+        li.fadeOut("slow",function (){
+          $(".recently-completed").append(li);
+          li.fadeIn();  
+        });
       }
-  });  
+    }
+  });
+
+  $('.edit-pencil').on('click', function(e) {  
+      alert("Edit Task");
+  });    
 });

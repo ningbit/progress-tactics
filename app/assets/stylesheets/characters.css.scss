@@ -1,0 +1,40 @@
+.team-container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.team {
+  margin-left: 20px;
+  li {
+    float: left;
+    margin: 0 10px;
+    padding: 10px 0;
+    text-align: center;
+    list-style-type: none;
+    border-radius: 15px;
+    min-width: 140px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+      span {
+        font-size:20px;
+        // text-shadow: 1px 1px 0 #999;
+        font-family: Garamond;
+        font-weight: bold;
+      }
+    
+
+    &:hover{
+      cursor: pointer;
+      box-shadow: 1px 1px 15px #222;
+      opacity: 1;
+      background-color: #FFF;
+    }
+  }
+
+  img {
+    border: 2px solid #777;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: rgba(255,255,255,0.7);
+  }
+}
