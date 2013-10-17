@@ -1,22 +1,23 @@
 <p id="notice"><%= notice %></p>
 
-<h1><%= @user.first_name %>'s Team</h1>
-
 <div class="clearfix container team-container">
-    <ul class="team">
-      <% @team.characters.each do |character| %>
+  <h1><%= @user.first_name %>'s Team</h1>
+  <ul class="team">
+    <% @team.characters.each do |character| %>
 
-        <li>
-          <img src="/images/jobs/<%=character.current_job_class.name + character.color.to_s + character.gender%>.gif"><br />
-          <%= character.name %><br />
-          EXP: <%= character.total_exp %>
-        </li>
-      <% end %>
-    </ul>
+      <li>
+        <img src="/images/jobs/<%=character.current_job_class.name.gsub(" ","") + character.color.to_s + character.gender%>.gif"><br />
+        <span><%= character.name %></span><br />
+        <%= character.job_level %><br />
+        EXP: <%= character.total_exp %>
+      </li>
+    <% end %>
+  </ul>
 </div>
 
-<h1>Task List</h1>
+
 <div class= "clearfix container">
+  <h1>Task List</h1>
   <ul class="task">
     <% @tasks.each do |task| %>
     	<li>
@@ -25,7 +26,7 @@
           <span class="task-characters">
             <% task.characters.each do |character| %>
               <span>
-                <img src="/images/jobs/<%=character.current_job_class.name + character.color.to_s + character.gender%>-SW.gif"></br>
+                <img src="/images/jobs/<%=character.current_job_class.name.gsub(" ","") + character.color.to_s + character.gender%>-SW.gif"></br>
                 <%= character.topic.name %>
               </span>
             <% end %>          

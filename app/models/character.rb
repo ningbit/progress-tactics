@@ -21,11 +21,11 @@ class Character < ActiveRecord::Base
   end
 
   def name
-    "#{self.topic.name} #{self.current_job_class.name} Lvl #{current_job.level}"
+    self.topic.name
   end
 
-  def level
-
+  def job_level
+    "#{self.current_job_class.name} Lvl #{current_job.level}"
   end
 
   private
