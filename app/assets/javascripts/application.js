@@ -19,7 +19,11 @@ $(document).ready(function() {
 
   $('.task li').on('click', function(e) {  
       // $(this).closest('tr').fadeOut(); 
-      if(e.target.nodeName == 'A') return;
+      if($(e.target).is('A')) return;
+      if($(e.target).parent().is('A')) {
+        e.preventDefault;
+        return;
+      }
       var completed = confirm("Complete Task?")
       if (completed) {
         $(this).closest('li').fadeOut(); 

@@ -22,7 +22,7 @@
     <% @tasks.each do |task| %>
     	<li>
         <div class="task-item">
-        <span class="checkmark"><img src="/images/checkmark2.gif" width="90px" alt="checkmark"></span>            
+        <span class="checkmark"><img src="/images/checkmark2.gif" width="90px" alt="checkmark"></span>           
           <span class="task-characters">
             <% task.characters.each do |character| %>
               <span>
@@ -40,7 +40,9 @@
           <%= task.hours == 0.5 ? "30 min" : "#{task.hours.to_f.round(1)} hrs" %>
         </div>        
         <div class="task-description"> 
-          #<%= task.number %>)&nbsp<%= task.name %><br />
+          #<%= task.number %>)&nbsp<%= task.name %>        
+          <a class="edit-pencil"><img src="/images/pencil.png" alt="edit-pencil"></a>      
+          <br />
           <div>
             <%= auto_link(task.contents) %>
           </div>

@@ -27,6 +27,23 @@
       -khtml-opacity: 0.6;
       opacity: 0.6;
     }
+    a.edit-pencil{
+      visibility:hidden;
+      position:relative;
+      // left: 75%;
+      // margin-left: 90px;
+      filter:alpha(opacity=60);
+      -moz-opacity:0.6;
+      -khtml-opacity: 0.6;
+      opacity: 0.6;
+      img {
+        margin-top: -5px;
+        width:20px;
+        height:20px;
+        border: 2px solid #222;
+        border-radius: 5px;
+      }
+    }    
     &:hover {
       border: 2px solid #555;
       cursor: pointer;
@@ -35,9 +52,9 @@
       // background: white;
       // background-color: rgba(107,43,37,0.13);
 
-      span.checkmark{
+      span.checkmark, a.edit-pencil{
         visibility:visible;
-      }
+      } 
     }
 
     a:visited {
@@ -49,16 +66,6 @@
       color: #888;
     }
     
-    .task-item {
-      text-align: left;
-      span {
-        float: left;
-        
-        img {
-          height: 70px;
-          margin: 0 7.5px;
-        }
-      }
       .task-characters {
         // border: 2px solid #777;
         border-radius: 5px;
@@ -67,7 +74,6 @@
           text-align: center;
         }
       }
-    }
 
     .task-description {
       font-size: 1.3em;
@@ -118,6 +124,18 @@
       background-image: linear-gradient(to bottom, #FFFFFF 0%, rgba(0,0,0,0.04) 40%, rgba(0,0,0,0.04) 60%, #FFFFFF 100%);      
       background-image: -moz-linear-gradient(top, rgba(255,255,255,0.01) -20%, rgba(0,0,0,0.1) 50%, rgba(255,255,255,0.01) 120%);      
       // background: url('/images/clock1.gif') no-repeat;
+    }
+  }
+}
+
+.task-item {
+  text-align: left;
+  span {
+    float: left;
+    
+    img {
+      height: 70px;
+      margin: 0 7.5px;
     }
   }
 }
