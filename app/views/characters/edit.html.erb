@@ -1,0 +1,18 @@
+<li class="edit-character" style="display:none">
+  <div class="edit-contents" style="display:none">
+    <h2>Change Jobs</h2>
+    <ul class="character-jobs">
+      <li class="current-job">
+        <img src="<%= current_job_image_body @character %>"><br />
+        Current
+      </li>
+      <% @character.available_jobs.each do |job| %>
+      <li class="<%= job.job_class_id == @character.current_job_id ? 'active-job' : 'available-job' %>" data-jobid='<%=job.id%>'><img src="<%= job_image_body job %>"></li>
+      <% end %>
+    </ul>
+  </div>
+</li>
+
+<style>
+  
+</style>
