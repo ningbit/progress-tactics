@@ -6,8 +6,24 @@
         <img src="<%= current_job_image_body @character %>"><br />
         Current
       </li>
-      <% @character.available_jobs.each do |job| %>
-      <li class="<%= job.job_class_id == @character.current_job_id ? 'active-job' : 'available-job' %>" data-jobid='<%=job.id%>'><img src="<%= job_image_body job %>"></li>
+      <% @character.available_jobs.each_with_index do |job,index| %>
+        <% if index < 9 %>
+          <li class="<%= job.job_class_id == @character.current_job_id ? 'active-job' : 'available-job' %>" data-jobid='<%=job.job_class_id%>'><img src="<%= job_image_body job %>"></li>
+        <% elsif index == 9 && @character.available_jobs.size > 9 %>
+          <li class='jobs-more'>More ></li>
+          <li class="<%= job.job_class_id == @character.current_job_id ? 'active-job' : 'available-job' %>" data-jobid='<%=job.job_class_id%>'><img src="<%= job_image_body job %>"></li> 
+        <% elsif index == 18 && @character.available_jobs.size > 18 %>
+          <li class='jobs-more2'>More ></li>
+          <li class="<%= job.job_class_id == @character.current_job_id ? 'active-job' : 'available-job' %>" data-jobid='<%=job.job_class_id%>'><img src="<%= job_image_body job %>"></li>                
+        <% else %>
+          <li class="<%= job.job_class_id == @character.current_job_id ? 'active-job' : 'available-job' %>" data-jobid='<%=job.job_class_id%>'><img src="<%= job_image_body job %>"></li>     
+        <% end %>       
+      <% end %>
+      <% if @character.available_jobs.size > 9 %>
+        <li class='jobs-back' style="float:right">
+          Back<br />
+          <
+        </li> 
       <% end %>
     </ul>
   </div>

@@ -22,7 +22,7 @@ class Character < ActiveRecord::Base
 
   def available_jobs
     if self.gender == "M"
-      self.jobs.where("job_class_id != 19")
+      self.jobs.where("job_class_id != 19").limit(18)
       # self.jobs.where("level >= 0 AND job_class_id != 19")
     else
       self.jobs.where("job_class_id != 18")

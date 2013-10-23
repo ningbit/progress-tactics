@@ -42,59 +42,86 @@ $(document).ready(function() {
   var $team = $('.team li'),
       $teamList,
       id,
-      url;
+      url,
+      flag;
   $team.on('click',function() {
     $team = $('.team li')
     $teamList = $('.team')
     _this = $(this)
     $edit = $('.edit-character')
     id = _this.data().id
+    flag = true;
 
     $(this).toggleClass('active-character');    
-
-    if (_this[0] == $team.first()[0]) {
-      $team.not(_this).fadeToggle();
-    }
-    else {
-      $team.fadeToggle("fast",function(){
-        $teamList.prepend(_this);
-        _this.fadeIn(300);
-      });      
-    }
 
     if ($edit.length) {
       $edit.remove();
     }
-    else {
-      url = "/characters/" + id + "/edit"
-      $.get(url,function(data){
-        $teamList.append(data);
-        $('.edit-character').fadeIn(550,function(){
-          $('.edit-contents').fadeIn(250,function(){
 
-            // Change Job Logic
-            $('.available-job').on('click',function(){
-              // alert($(this).data().jobid);
-              var imageurl = $(this).find('img').attr('src').replace('SW','S');
-              var $character = $('.current-job img');
-              $character.fadeOut(function(){
-                $character.attr('src',imageurl);
-                $character.fadeIn();
-              });
-            });
+    if (_this[0] == $team.first()[0]) {
+      $team.not(_this).fadeToggle(function(){
 
+        if (flag) {
+          editCharacter();
+          flag=false;
+        }
 
-
-
-
-
-
-
-
-          });
-        });
-      })      
+      });
     }
+    else {
+      $team.fadeToggle("fast",function(){
+        $teamList.prepend(_this);
+        _this.fadeIn(300);  
+
+        if (flag) {
+          editCharacter();
+          flag=false;
+        }        
+
+      });      
+    }
+
+    function editCharacter(){
+      if ($edit.length) {
+        $edit.remove();
+      }
+      else {
+        url = "/characters/" + id + "/edit"
+        $.get(url,function(data){
+          $teamList.append(data);
+          $('.edit-character').fadeIn(350,function(){
+            $('.edit-contents').fadeIn(250,function(){
+
+              // Change Job Logic
+              $('.available-job').on('click',function(){
+                // alert($(this).data().jobid);
+                var imageurl = $(this).find('img').attr('src').replace('SW','S');
+                var $character = $('.current-job img');
+                $character.fadeOut(function(){
+                  $character.attr('src',imageurl);
+                  $character.fadeIn();
+                });
+              });
+
+              $('.jobs-more').on('click',function(){
+                $('.character-jobs li').not('.current-job').slice(0,10).hide();
+              });  
+
+              $('.jobs-more2').on('click',function(){
+                $('.character-jobs li').not('.current-job').slice(0,20).hide();
+              });             
+
+              $('.jobs-back').on('click',function(){
+                $('.character-jobs li').not('.current-job').show();
+              });  
+
+            });
+          });
+        })      
+      }
+
+    }
+
      
   });
 });
