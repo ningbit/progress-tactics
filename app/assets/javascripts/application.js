@@ -15,8 +15,10 @@
 //= require_tree .
 
 $(document).ready(function() {
+  // Force links to open in new windows
   $('a').attr("target", "_blank");
 
+  // Fade out completed task and append to Recently Completed list
   $('.task-exp').on('click', function(e) {
     var li = $(this).closest('li');
     if (li.parent().hasClass('active')) {
@@ -31,7 +33,33 @@ $(document).ready(function() {
     }
   });
 
+  // Listen for edit pencil clicks
   $('.edit-pencil').on('click', function(e) {  
       alert("Edit Task");
   });    
+
+  // Focus on single character, fade out rest
+  var $team = $('.team li');
+  var $teamList;
+  $team.on('click',function() {
+    $team = $('.team li')
+    $teamList = $('.team')
+    _this = $(this)
+    if (_this[0] == $team.first()[0]) {
+      $team.not(_this).fadeToggle();
+    }
+    else {
+      $team.not('.active-character').fadeToggle(function(){
+        $teamList.prepend(_this);
+        _this.fadeIn();
+      });      
+    }
+
+    $(this).toggleClass('active-character');
+    
+  });
+
+
+
+
 });

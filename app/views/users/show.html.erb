@@ -3,9 +3,9 @@
 <div class="clearfix container team-container">
   <h1><%= @user.first_name %>'s Team</h1>
   <ul class="team">
-    <% @team.characters.each do |character| %>
+    <% @team.characters.each_with_index do |character,index| %>
 
-      <li>
+      <li class="character-<%=character.id%>">
         <img src="/images/jobs/<%=character.current_job_class.name.gsub(" ","") + character.color.to_s + character.gender%>.gif"><br />
         <span><%= character.name %></span><br />
         <%= character.job_level %><br />

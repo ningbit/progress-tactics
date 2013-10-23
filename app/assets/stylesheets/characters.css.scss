@@ -4,7 +4,10 @@
 }
 
 .team {
-  margin-left: 20px;
+  margin: 0 0 0 20px;
+  padding: 5px 0;
+  // height: 190px;
+  // overflow: scroll;
   li {
     float: left;
     margin: 0 10px;
@@ -13,15 +16,17 @@
     list-style-type: none;
     border-radius: 15px;
     min-width: 140px;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
+    right: 10px;
+    position: relative;
+    -webkit-transition: background-color 0.2s, box-shadow 0.2s;
+    transition: background-color 0.2s, box-shadow 0.2s;
       span {
         font-size:20px;
-        // text-shadow: 1px 1px 0 #999;
         font-family: Garamond;
         font-weight: bold;
       }
     
+
 
     &:hover{
       cursor: pointer;
@@ -37,4 +42,11 @@
     margin-bottom: 5px;
     background-color: rgba(255,255,255,0.7);
   }
+}
+
+.active-character {
+      cursor: pointer;
+      box-shadow: 1px 1px 15px #222;
+      opacity: 1;
+      background-color: #FFF;
 }
