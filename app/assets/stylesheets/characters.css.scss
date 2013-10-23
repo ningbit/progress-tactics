@@ -6,9 +6,9 @@
 .team {
   margin: 0 0 0 20px;
   padding: 5px 0;
-  // height: 190px;
+  height: 190px;
   // overflow: scroll;
-  li {
+  li.character {
     float: left;
     margin: 0 10px;
     padding: 10px 0;
@@ -25,7 +25,13 @@
         font-family: Garamond;
         font-weight: bold;
       }
-    
+
+      img {
+        border: 2px solid #777;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        background-color: rgba(255,255,255,0.7);
+      }    
 
 
     &:hover{
@@ -36,17 +42,61 @@
     }
   }
 
-  img {
-    border: 2px solid #777;
-    border-radius: 5px;
-    margin-bottom: 5px;
-    background-color: rgba(255,255,255,0.7);
-  }
 }
 
 .active-character {
+  cursor: pointer;
+  box-shadow: 1px 1px 15px #222;
+  opacity: 1;
+  background-color: #FFF;
+}
+
+li.edit-character {
+  margin: 0 0 0 180px;
+  padding: 15px;
+  width: 724px;
+  height: 146px;
+
+  list-style-type: none; 
+  text-align: left;
+
+  background-color: rgba(255,255,255,0.9);
+  border: 2px solid #777;
+  border-radius: 10px;
+
+  h2 {
+    margin: 0 0 15px 0;
+    padding: 0;
+    font-size: 1em;
+  }
+
+  li {
+    width: 50px;
+    height: 100px;
+    padding: 6px;
+    text-align: center;
+
+    list-style-type: none;
+    float: left;    
+    // border: 1px solid #777;
+    // border-radius: 10px;   
+
+    img {
+      height: 70px;
+    } 
+  }
+
+  .current-job {
+    margin-right: 25px;
+  }
+
+  li:not(.active-job){
+    &:hover {
       cursor: pointer;
-      box-shadow: 1px 1px 15px #222;
-      opacity: 1;
-      background-color: #FFF;
+    }
+  }
+
+  .active-job {
+    opacity: 0.5;
+  }
 }

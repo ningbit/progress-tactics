@@ -20,6 +20,16 @@ class Character < ActiveRecord::Base
     Job.find(self.current_job_id)
   end
 
+  def available_jobs
+    if self.gender == "M"
+      self.jobs.where("job_class_id != 19")
+      # self.jobs.where("level >= 0 AND job_class_id != 19")
+    else
+      self.jobs.where("job_class_id != 18")
+      # self.jobs.where("level >= 0 AND job_class_id != 18")
+    end 
+  end
+
   def name
     self.topic.name
   end

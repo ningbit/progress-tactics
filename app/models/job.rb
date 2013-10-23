@@ -3,4 +3,9 @@ class Job < ActiveRecord::Base
 
   belongs_to :character
   belongs_to :job_class
+
+  def name
+    self.job_class.name
+  end
+
 end

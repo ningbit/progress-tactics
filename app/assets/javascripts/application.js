@@ -39,27 +39,62 @@ $(document).ready(function() {
   });    
 
   // Focus on single character, fade out rest
-  var $team = $('.team li');
-  var $teamList;
+  var $team = $('.team li'),
+      $teamList,
+      id,
+      url;
   $team.on('click',function() {
     $team = $('.team li')
     $teamList = $('.team')
     _this = $(this)
+    $edit = $('.edit-character')
+    id = _this.data().id
+
+    $(this).toggleClass('active-character');    
+
     if (_this[0] == $team.first()[0]) {
       $team.not(_this).fadeToggle();
     }
     else {
-      $team.not('.active-character').fadeToggle(function(){
+      $team.fadeToggle("fast",function(){
         $teamList.prepend(_this);
-        _this.fadeIn();
+        _this.fadeIn(300);
       });      
     }
 
-    $(this).toggleClass('active-character');
-    
+    if ($edit.length) {
+      $edit.remove();
+    }
+    else {
+      url = "/characters/" + id + "/edit"
+      $.get(url,function(data){
+        $teamList.append(data);
+        $('.edit-character').fadeIn(550,function(){
+          $('.edit-contents').fadeIn(250,function(){
+
+            // Change Job Logic
+            $('.available-job').on('click',function(){
+              // alert($(this).data().jobid);
+              var imageurl = $(this).find('img').attr('src').replace('SW','S');
+              var $character = $('.current-job img');
+              $character.fadeOut(function(){
+                $character.attr('src',imageurl);
+                $character.fadeIn();
+              });
+            });
+
+
+
+
+
+
+
+
+
+          });
+        });
+      })      
+    }
+     
   });
-
-
-
-
 });
